@@ -33,11 +33,10 @@ export default function SectionTeams({ ...rest }) {
                 classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
               }
             >
-              <h2 className={classes.title}>Our Awesome Team</h2>
+              <h2 className={classes.title}>Our Team</h2>
               <h5 className={classes.description}>
-                This is the paragraph where you can write more details about
-                your team. Keep you user engaged by providing meaningful
-                information.
+              Our team is the foundation of a high-performing business and a good team ethic can be held largely accountable for the success and smooth running of the organization. 
+              So Thats what our teams does to ensure that they are collectively productive and drive the company forward
               </h5>
             </GridItem>
           </GridContainer>

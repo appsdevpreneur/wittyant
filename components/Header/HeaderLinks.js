@@ -98,22 +98,6 @@ export default function HeaderLinks(props) {
         About Us
       </a>
     </Link>
-    <Link href="/sections#home">
-      <a
-        className={classes.dropdownLink}
-        onClick={(e) => smoothScroll(e, "home")}
-      >
-        Home
-      </a>
-    </Link>
-      <Link href="/sections#features">
-        <a
-          className={classes.dropdownLink}
-          onClick={(e) => smoothScroll(e, "features")}
-        >
-          Features
-        </a>
-      </Link>
       <Link href="/sections#services">
         <a
           className={classes.dropdownLink}
@@ -122,7 +106,15 @@ export default function HeaderLinks(props) {
           Services
         </a>
       </Link>
-      <Link href="/sections#industries">
+      {/* <Link href="/sections#industries">
+        <a
+          className={classes.dropdownLink}
+          onClick={(e) => smoothScroll(e, "industries")}
+        >
+          Industries
+        </a>
+      </Link> */}
+       <Link href="/sections#industries">
         <a
           className={classes.dropdownLink}
           onClick={(e) => smoothScroll(e, "industries")}
@@ -130,12 +122,12 @@ export default function HeaderLinks(props) {
           Industries
         </a>
       </Link>
-      <Link href="/sections#technologies">
+      <Link href="/sections#technology">
         <a
           className={classes.dropdownLink}
-          onClick={(e) => smoothScroll(e, "technologies")}
+          onClick={(e) => smoothScroll(e, "technology")}
         >
-          Technologies
+          Technology
         </a>
       </Link>
       <Link href="/sections#projects">
@@ -162,7 +154,15 @@ export default function HeaderLinks(props) {
           Testimonials
         </a>
       </Link>
-      <Link href="/sections#testimonials">
+      <Link href="/sections#offices">
+        <a
+          className={classes.dropdownLink}
+          onClick={(e) => smoothScroll(e, "offices")}
+        >
+          Offices
+        </a>
+      </Link>
+      <Link href="/sections#contacts">
         <a
           className={classes.dropdownLink}
           onClick={(e) => smoothScroll(e, "contacts")}

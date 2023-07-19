@@ -185,7 +185,9 @@ const headerLinksStyle = (theme) => ({
   dropdownLink: {
     "&,&:hover,&:focus": {
       color: "inherit",
-      textDecoration: "none",
+      textDecoration: "solid",
+      fontFamily: 'Roboto',
+      fontWeight: 500,
       display: "flex",
       padding: "0.75rem 1.25rem 0.75rem 0.75rem"
     }

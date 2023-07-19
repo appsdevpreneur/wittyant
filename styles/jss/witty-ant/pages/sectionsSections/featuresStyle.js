@@ -17,7 +17,7 @@ const features = {
   description,
   features1: {
     textAlign: "center",
-    padding: "80px 0"
+    padding: "10px 0"
   },
   features2: {
     padding: "80px 0"
@@ -83,6 +83,10 @@ const features = {
         color: whiteColor
       }
     }
+  },
+  features6: {
+    textAlign: "center",
+    padding: "10px 0"
   },
   gridContainer: {},
   gridItem: {},

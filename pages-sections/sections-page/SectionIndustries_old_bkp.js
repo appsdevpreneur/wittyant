@@ -4,12 +4,6 @@ import makeStyles from '@mui/styles/makeStyles';
 import Chat from "@mui/icons-material/Chat";
 import VerifiedUser from "@mui/icons-material/VerifiedUser";
 import Fingerprint from "@mui/icons-material/Fingerprint";
-import GroupWork from "@mui/icons-material/GroupWork";
-import Airplay from "@mui/icons-material/Airplay";
-import LocationOn from "@mui/icons-material/LocationOn";
-import Extension from "@mui/icons-material/Extension";
-import ChildFriendly from "@mui/icons-material/ChildFriendly";
-import WatchLater from "@mui/icons-material/WatchLater";
 import Code from "@mui/icons-material/Code";
 import FormatPaint from "@mui/icons-material/FormatPaint";
 import Dashboard from "@mui/icons-material/Dashboard";
@@ -25,7 +19,7 @@ import featuresStyle from "/styles/jss/witty-ant/pages/sectionsSections/features
 
 const useStyles = makeStyles(featuresStyle);
 
-export default function SectionFeatures({ ...rest }) {
+export default function SectionIndustries({ ...rest }) {
   const classes = useStyles();
   return (
     <div className="cd-section" {...rest}>
@@ -39,7 +33,7 @@ export default function SectionFeatures({ ...rest }) {
               md={8}
               className={classes.mlAuto + " " + classes.mrAuto}
             >
-              <h2 className={classes.title}>Why our product is the best</h2>
+              <h2 className={classes.title}>Why our product is the best industries</h2>
               <h5 className={classes.description}>
                 This is the paragraph where you can write more details about
                 your product. Keep you user engaged by providing meaningful
@@ -82,7 +76,7 @@ export default function SectionFeatures({ ...rest }) {
         {/* Feature 1 END */}
       </div>
       {/* Feature 5 START */}
-      <div
+      {/* <div
         className={classes.features5}
         style={{ backgroundImage: "url('/img/examples/office3.jpg')" }}
       >
@@ -203,7 +197,7 @@ export default function SectionFeatures({ ...rest }) {
             </GridContainer>
           </div>
         </GridContainer>
-      </div>
+      </div> */}
       {/* Feature 5 END */}
     </div>
   );

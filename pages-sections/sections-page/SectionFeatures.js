@@ -39,7 +39,7 @@ export default function SectionFeatures({ ...rest }) {
               md={8}
               className={classes.mlAuto + " " + classes.mrAuto}
             >
-              <h2 className={classes.title}>Why our product is the best</h2>
+              <h2 className={classes.title}>Why our product is the best....</h2>
               <h5 className={classes.description}>
                 This is the paragraph where you can write more details about
                 your product. Keep you user engaged by providing meaningful

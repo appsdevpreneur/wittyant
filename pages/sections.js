@@ -6,17 +6,15 @@ import Header from "/components/Header/Header.js";
 import HeaderLinks from "/components/Header/HeaderLinks.js";
 // sections of this Page
 import SectionAboutUs from "/pages-sections/sections-page/SectionAboutUs.js";
-import SectionHeaders from "/pages-sections/sections-page/SectionHeaders.js";
-import SectionFeatures from "/pages-sections/sections-page/SectionFeatures.js";
 import SectionServices from "/pages-sections/sections-page/SectionServices.js";
 import SectionIndustries from "/pages-sections/sections-page/SectionIndustries.js";
-import SectionTechnologies from "/pages-sections/sections-page/SectionTechnologies.js";
+import SectionTechnology from "/pages-sections/sections-page/SectionTechnology.js";
 import SectionOffices from "/pages-sections/sections-page/SectionOffices.js";
 import SectionTeams from "/pages-sections/sections-page/SectionTeams.js";
 import SectionProjects from "/pages-sections/sections-page/SectionProjects.js";
 import SectionTestimonials from "/pages-sections/sections-page/SectionTestimonials.js";
 import SectionContacts from "/pages-sections/sections-page/SectionContacts.js";
-
+// import SectionBlogs from "/pages-sections/sections-page/SectionBlogs.js";
 import sectionsPageStyle from "/styles/jss/witty-ant/pages/sectionsPageStyle.js";
 
 const useStyles = makeStyles(sectionsPageStyle);
@@ -95,11 +93,9 @@ export default function SectionsPage() {
       />
       <div className={classes.main}>
         <SectionAboutUs id="aboutus" />
-        <SectionHeaders id="home" />
-        <SectionFeatures id="features" />
         <SectionServices id="services" />
         <SectionIndustries id="industries" />
-        <SectionTechnologies id="technologies" />
+        <SectionTechnology id="technology" />
         <SectionOffices id="offices" />
         <SectionTeams id="teams" />
         <SectionProjects id="projects" />
@@ -131,50 +127,8 @@ export default function SectionsPage() {
           </li>
           <li>
             <a
-              href="#home"
-              data-number="1"
-              className="is-selected"
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("home");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Home</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#features"
-              data-number="2"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("features");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Features</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="#services"
-              data-number="3"
+              data-number="2"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -205,17 +159,17 @@ export default function SectionsPage() {
                   // if we are on mobile device the scroll into view will be managed by the browser
                 } else {
                   e.preventDefault();
-                  smoothScroll("services");
+                  smoothScroll("industries");
                 }
               }}
             >
               <span className="cd-dot" />
-              <span className="cd-label">Services</span>
+              <span className="cd-label">Industries</span>
             </a>
           </li>
           <li>
             <a
-              href="#technologies"
+              href="#technology"
               data-number="4"
               className=""
               onClick={(e) => {
@@ -226,60 +180,18 @@ export default function SectionsPage() {
                   // if we are on mobile device the scroll into view will be managed by the browser
                 } else {
                   e.preventDefault();
-                  smoothScroll("technologies");
+                  smoothScroll("technology");
                 }
               }}
             >
               <span className="cd-dot" />
-              <span className="cd-label">Technologies</span>
+              <span className="cd-label">Technology</span>
             </a>
           </li>
-          <li>
-            <a
-              href="#offices"
-              data-number="5"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("offices");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Offices</span>
-            </a>
-          </li>
-          {/* <li>
-            <a
-              href="#blogs"
-              data-number="3"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("blogs");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Blogs</span>
-            </a>
-          </li> */}
           <li>
             <a
               href="#teams"
-              data-number="6"
+              data-number="5"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -300,7 +212,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#projects"
-              data-number="7"
+              data-number="6"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -318,31 +230,10 @@ export default function SectionsPage() {
               <span className="cd-label">Projects</span>
             </a>
           </li>
-          {/* <li>
-            <a
-              href="#pricing"
-              data-number="6"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("pricing");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Pricing</span>
-            </a>
-          </li> */}
           <li>
             <a
               href="#testimonials"
-              data-number="8"
+              data-number="7"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -358,6 +249,27 @@ export default function SectionsPage() {
             >
               <span className="cd-dot" />
               <span className="cd-label">Testimonials</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#offices"
+              data-number="8"
+              className=""
+              onClick={(e) => {
+                var isMobile = navigator.userAgent.match(
+                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
+                );
+                if (isMobile) {
+                  // if we are on mobile device the scroll into view will be managed by the browser
+                } else {
+                  e.preventDefault();
+                  smoothScroll("offices");
+                }
+              }}
+            >
+              <span className="cd-dot" />
+              <span className="cd-label">Offices</span>
             </a>
           </li>
           <li>
