@@ -39,7 +39,7 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/examples/card-blog4.jpg" alt="..." />
+                        <img src="/img/robotics.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
@@ -66,13 +66,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/examples/card-blog4.jpg" alt="..." />
+                        <img src="/img/banking.jpeg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/examples/card-blog4.jpg')",
+                            "url('/img/banking.jpeg')",
                           opacity: "1"
                         }}
                       />
@@ -93,7 +93,7 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/examples/card-blog4.jpg" alt="..." />
+                        <img src="/img/consumer-products.jpeg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}

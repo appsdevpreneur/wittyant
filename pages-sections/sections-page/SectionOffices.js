@@ -25,53 +25,14 @@ export default function SectionOffices({ ...rest }) {
     <div className="cd-section" {...rest}>
       <div className={classes.container}>
         {/* Feature 1 START */}
-        <div className={classes.features1}>
-          {/* <GridContainer>
-            <GridItem
-              xs={12}
-              sm={8}
-              md={8}
-              className={classes.mlAuto + " " + classes.mrAuto}
-            >
-              <h2 className={classes.title}>Our Offices</h2>
-            </GridItem>
-          </GridContainer>
-          <GridContainer>
-            <GridItem xs={12} sm={4} md={4}>
-              <InfoArea
-                vertical
-                icon={Chat}
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough"
-                iconColor="info"
-              />
-            </GridItem>
-            <GridItem xs={12} sm={4} md={4}>
-              <InfoArea
-                vertical
-                icon={VerifiedUser}
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                iconColor="success"
-              />
-            </GridItem>
-            <GridItem xs={12} sm={4} md={4}>
-              <InfoArea
-                vertical
-                icon={Fingerprint}
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                iconColor="danger"
-              />
-            </GridItem>
-          </GridContainer> */}
-        </div>
+        {/* <div className={classes.features1}> */}
         {/* Feature 1 END */}
       </div>
       {/* Feature 5 START */}
       <div
         className={classes.features5}
-        style={{ backgroundImage: "url('/img/examples/office3.jpg')" }}
+        style={{ backgroundImage: "url('/img/our-offices.jpeg')" }}
+        // style={{ backgroundImage: "url('/img/examples/office3.jpg')" }}
       >
         <GridContainer className={classes.margin0}>
           <GridItem

@@ -22,13 +22,28 @@ import GridItem from "/components/Grid/GridItem.js";
 import InfoArea from "/components/InfoArea/InfoArea.js";
 
 import featuresStyle from "/styles/jss/witty-ant/pages/sectionsSections/featuresStyle.js";
-
-const useStyles = makeStyles(featuresStyle);
-
+import headersStyle from "/styles/jss/witty-ant/pages/sectionsSections/headersStyle.js";
+// const useStyles = makeStyles(featuresStyle);
+const useStyles = makeStyles(headersStyle);
 export default function SectionTechnology({ ...rest }) {
   const classes = useStyles();
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false
+  };
   return (
     <div className="cd-section" {...rest}>
+      <div className={classes.sectionBlank} id="blanksection" />
+      {/* HEADER 1 START */}
+      <div>
+        <div
+          className={classes.pageHeader}
+          style={{ backgroundImage: "url('/img/virtual-technologies.jpg')" }}
+        >
       <div className={classes.container}>
         {/* Feature 1 START */}
         <div className={classes.features1}>
@@ -39,7 +54,7 @@ export default function SectionTechnology({ ...rest }) {
               md={8}
               className={classes.mlAuto + " " + classes.mrAuto}
             >
-              <h2 className={classes.title}>Our Core Technology</h2>
+              <h1 className={classes.title}>Our Core Technology</h1>
             </GridItem>
           </GridContainer>
           <GridContainer>
@@ -56,6 +71,7 @@ export default function SectionTechnology({ ...rest }) {
               <InfoArea
                 vertical
                 icon={VerifiedUser}
+                style={{color:"white"}}
                 title="S4 HANA – Implementation/ Support "
                 description="Accelerate your SAP S/4HANA implementation with SAP EnterpriseDivide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
                 iconColor="success"
@@ -128,6 +144,8 @@ export default function SectionTechnology({ ...rest }) {
         </div>
         {/* Feature 1 END */}
       </div>
+    </div>
+    </div>
     </div>
   );
 }

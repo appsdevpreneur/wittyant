@@ -16,8 +16,9 @@ import Muted from "/components/Typography/Muted.js";
 import Warning from "/components/Typography/Warning.js";
 
 import testimonialsStyle from "/styles/jss/witty-ant/pages/sectionsSections/testimonialsStyle.js";
-
+import headersStyle from "/styles/jss/witty-ant/pages/sectionsSections/headersStyle.js";
 const useStyles = makeStyles(testimonialsStyle);
+// const useStyles = makeStyles(headersStyle);
 
 export default function SectionTestimonials({ ...rest }) {
   const classes = useStyles();
@@ -31,68 +32,121 @@ export default function SectionTestimonials({ ...rest }) {
   };
   return (
     <div className="cd-section" {...rest}>
-      {/* Testimonials 3 START */}
-      <div className={classes.testimonials}>
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem
-              xs={12}
-              sm={6}
-              md={6}
-              className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
-              }
-            >
-              <h2 className={classes.title}>What Clients Say</h2>
-            </GridItem>
-          </GridContainer>
-          <GridContainer>
-            <GridItem xs={12} sm={6} md={6}>
-              <Card testimonial plain>
-                <CardAvatar testimonial plain>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    <img src="/img/faces/card-profile1-square.jpg" alt="..." />
-                  </a>
-                </CardAvatar>
-                <CardBody plain>
-                  <h4 className={classes.title}>Rajesh Reddy</h4>
-                  <Muted>
-                    <h6>CEO @ Vishudha Tagline Traders</h6>
-                  </Muted>
-                  <h5 className={classes.cardDescription}>
-                    {'"'}I speak yell scream directly at the old guard on behalf
-                    of the future. I gotta say at that time I’d like to meet
-                    Kanye I speak yell scream directly at the old guard on
-                    behalf of the future.{'"'}
-                  </h5>
-                </CardBody>
-              </Card>
-            </GridItem>
-            <GridItem xs={12} sm={6} md={6}>
-              <Card testimonial plain>
-                <CardAvatar testimonial plain>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    <img src="/img/faces/card-profile1-square.jpg" alt="..." />
-                  </a>
-                </CardAvatar>
-                <CardBody plain>
-                  <h4 className={classes.title}>Rajesh Reddy</h4>
-                  <Muted>
-                    <h6>CEO @ Vishudha Tagline Traders</h6>
-                  </Muted>
-                  <h5 className={classes.cardDescription}>
-                    {'"'}I speak yell scream directly at the old guard on behalf
-                    of the future. I gotta say at that time I’d like to meet
-                    Kanye I speak yell scream directly at the old guard on
-                    behalf of the future.{'"'}
-                  </h5>
-                </CardBody>
-              </Card>
-            </GridItem>
-          </GridContainer>
-        </div>
+      <div className={classes.sectionBlank} id="blanksection" />
+      {/* HEADER 1 START */}
+        <div
+          className={classes.pageHeader}
+          style={{ backgroundImage: "url('/img/customer-testimonials.jpeg')" }}
+        >
+          <div
+            className={
+              classes.testimonials +
+              " " +
+              classes.sectionDark +
+              " " +
+              classes.testimonial2
+            }
+          >
+            <div className={classes.container}>
+              <GridContainer>
+                <GridItem
+                  xs={12}
+                  sm={12}
+                  md={12}
+                  className={
+                    classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                  }
+                >
+                  <h1 className={classes.title} style={{ color: "white" }}>What Clients Say</h1>
+                </GridItem>
+              </GridContainer>
+              <GridContainer>
+                <GridItem xs={12} sm={12} md={12}>
+                  <Carousel {...settings}>
+                    <div>
+                      <Card testimonial plain className={classes.card2}>
+                        <CardAvatar testimonial plain>
+                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                            <img src="/img/faces/card-profile1-square.jpg" alt="..." />
+                          </a>
+                        </CardAvatar>
+                        <CardBody plain>
+                          <h5 className={classes.cardDescription}>
+                            {'"'}I speak yell scream directly at the old guard on
+                            behalf of the future. I gotta say at that time I’d like
+                            to meet Kanye I speak yell scream directly at the old
+                            guard on behalf of the future. My brother Chance!!!
+                            <br />
+                            Thank you for letting me work on this masterpiece. One
+                            of my favorite people.{'"'}
+                          </h5>
+                          <h4 className={classes.cardTitle}>Rajesh Reddy</h4>
+                          <Muted>
+                            <h6>CEO @ Vishudha Tagline Traders Pvt Ltd.</h6>
+                          </Muted>
+                        </CardBody>
+                        <div>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                        </div>
+                      </Card>
+                    </div>
+                    <div>
+                      <Card testimonial plain className={classes.card2}>
+                        <CardAvatar testimonial plain>
+                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                            <img src="/img/faces/card-profile1-square.jpg" alt="..." />
+                          </a>
+                        </CardAvatar>
+                        <CardBody plain>
+                          <h5 className={classes.cardDescription}>
+                            {'"'}Thank you Vinod for the invite thank you to the
+                            whole Vogue team Called I Miss the Old Kanye At the God
+                            {"'"}s last game Chop up the soul Kanye. I promise I
+                            will never let the people down. I want a better life for
+                            all!!! Pablo Pablo Pablo Pablo! Thank you Vinod for the
+                            invite thank you to the whole Vogue team.{'"'}
+                          </h5>
+                          <h4 className={classes.cardTitle}>P V Rao</h4>
+                          <Muted>
+                            <h6>Finance Manager @ Vishudha Tagline Traders Pvt Ltd</h6>
+                          </Muted>
+                        </CardBody>
+                        <div>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                          <Warning>
+                            <Star className={classes.starIcons} />
+                          </Warning>
+                        </div>
+                      </Card>
+                    </div>
+                  </Carousel>
+                </GridItem>
+              </GridContainer>
+            </div>
+          </div>
       </div>
-      {/* Testimonials 3 END */}
     </div>
   );
 }

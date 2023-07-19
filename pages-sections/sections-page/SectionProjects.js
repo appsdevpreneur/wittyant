@@ -6,6 +6,14 @@ import Icon from "@mui/material/Icon";
 import Build from "@mui/icons-material/Build";
 import Subject from "@mui/icons-material/Subject";
 import FormatPaint from "@mui/icons-material/FormatPaint";
+import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import AddchartIcon from '@mui/icons-material/Addchart';
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import AnalyticsIcon from '@mui/icons-material/Analytics';
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import TuneIcon from '@mui/icons-material/Tune';
+import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 import Code from "@mui/icons-material/Code";
 import Dashboard from "@mui/icons-material/Dashboard";
 import Timeline from "@mui/icons-material/Timeline";
@@ -76,24 +84,24 @@ export default function SectionProjects({ ...rest }) {
             <GridItem xs={12} sm={5} md={5} className={classes.mrAuto}>
               <InfoArea
                 className={classes.info4}
-                title="Graphic Design"
+                title="E-Commerce Application"
                 description="We've created the design of the website using modern Technologies like Sketch. It was a very interesting collaboration."
-                icon={FormatPaint}
-                iconColor="info"
+                icon={ShoppingCartCheckoutIcon}
+                iconColor="success"
               />
               <InfoArea
                 className={classes.info4}
-                title="Fully Coded in React, MUI"
-                description="We've developed the App with React, MUI."
-                icon={Code}
+                title="Saves Time"
+                description="I would save lot of time of the customer by just relaxing and ordering the Groceries needed to any where "
+                icon={QueryBuilderIcon}
                 iconColor="primary"
               />
               <InfoArea
                 className={classes.info4}
-                title="Admin Dashboard"
-                description="There is also a Fully Customizable Admin Dashboard for this product."
-                icon={Dashboard}
-                iconColor="danger"
+                title="Free Shipping"
+                description="Deliver Goods on Time and handle the goods with Care"
+                icon={LocalShippingIcon}
+                iconColor="success"
               />
             </GridItem>
           </GridContainer>
@@ -102,23 +110,30 @@ export default function SectionProjects({ ...rest }) {
             <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
               <InfoArea
                 className={classes.info4}
-                title="Marketing"
-                description="We've created the marketing campaign of the website. It was a very interesting collaboration."
-                icon={Timeline}
-                iconColor="rose"
+                title="Admin Panel"
+                description="Admin Panel for accessing all the modules in Vishudha Ecommerce Business"
+                icon={AdminPanelSettingsIcon}
+                iconColor="warning"
               />
               <InfoArea
                 className={classes.info4}
-                title="Fully Coded in React, MUI"
-                description="We've developed the App with React, MUI"
-                icon={Code}
+                title="Analytics Integrated"
+                description="Fully Integrated with Analytics to track the Sales"
+                icon={AnalyticsIcon}
                 iconColor="success"
               />
               <InfoArea
                 className={classes.info4}
-                title="Built Audience"
-                description="There is also a Fully Customizable Admin Dashboard for this product."
-                icon={Group}
+                title="Intuitive Dashboard "
+                description="Intuitive Dashboard based on the Roles"
+                icon={Dashboard}
+                iconColor="info"
+              />
+               <InfoArea
+                className={classes.info4}
+                title="Configure "
+                description="Can Configure all the Categories, Sub categories, Products, Prices, Discounts and Taxes details"
+                icon={TuneIcon}
                 iconColor="info"
               />
             </GridItem>

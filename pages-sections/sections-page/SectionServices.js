@@ -4,6 +4,16 @@ import makeStyles from '@mui/styles/makeStyles';
 import Chat from "@mui/icons-material/Chat";
 import VerifiedUser from "@mui/icons-material/VerifiedUser";
 import Fingerprint from "@mui/icons-material/Fingerprint";
+import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
+import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
+import AddBusinessIcon from '@mui/icons-material/AddBusiness';
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import CloudDoneIcon from '@mui/icons-material/CloudDone';
+import TerminalIcon from '@mui/icons-material/Terminal';
+import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import PsychologyIcon from '@mui/icons-material/Psychology';
 import Code from "@mui/icons-material/Code";
 import FormatPaint from "@mui/icons-material/FormatPaint";
 import Dashboard from "@mui/icons-material/Dashboard";
@@ -38,7 +48,7 @@ export default function SectionServices({ ...rest }) {
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={Chat}
+                icon={TerminalIcon}
                 title="Enterprise Application- Packaged Software and Open Source"
                 iconColor="info"
                 description=""
@@ -56,7 +66,7 @@ export default function SectionServices({ ...rest }) {
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={VerifiedUser}
+                icon={PsychologyIcon}
                 title="Data Analytics , Business Intelligence "
                 description=""
                 iconColor="success"
@@ -70,10 +80,10 @@ export default function SectionServices({ ...rest }) {
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={Fingerprint}
-                title="Ecommerce and retail"
+                icon={ShoppingCartCheckoutIcon}
+                title="E-Commerce and retail"
                 description=""
-                iconColor="danger"
+                iconColor="info"
               />
               <Typography component="div" style={{textAlign:"left"}}>
                 <ul>
@@ -87,9 +97,9 @@ export default function SectionServices({ ...rest }) {
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={Fingerprint}
+                icon={MedicalInformationIcon}
                 title="Medical Device Services – Medical Writing"
-                iconColor="danger"
+                iconColor="info"
                 description=""
               />
               <Typography component="div" style={{textAlign:"left"}}>
@@ -102,24 +112,9 @@ export default function SectionServices({ ...rest }) {
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={Fingerprint}
-                title="Medical Device Services – Medical Writing"
-                iconColor="danger"
-                description=""
-              />
-              <Typography component="div" style={{textAlign:"left"}}>
-                <ul>
-                  <li ><h5>Regulatory agencies have adopted more elaborate review measures that require substantial amounts of documentation</h5></li>
-                  <li><h5>We help creating well-structured scientific documents that include clinical research documents, content for healthcare websites, health magazines, journals and news. Our services include regulatory medical writing and Educational medical writing.</h5></li>
-                </ul>
-              </Typography>
-            </GridItem>
-            <GridItem xs={12} sm={4} md={4}>
-              <InfoArea
-                vertical
-                icon={Fingerprint}
+                icon={EngineeringIcon}
                 title="Consulting services in Business Process re engineering"
-                iconColor="danger"
+                iconColor="success"
                 description=""
               />
               <Typography component="div" style={{textAlign:"left"}}>
@@ -134,9 +129,9 @@ export default function SectionServices({ ...rest }) {
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={Fingerprint}
+                icon={CloudDoneIcon}
                 title="Cloud Services"
-                iconColor="danger"
+                iconColor="warning"
                 description=""
               />
               <Typography component="div" style={{textAlign:"left"}}>
@@ -149,9 +144,9 @@ The cloud brings security, momentum, and cost-efficiency. WittyAnt’s cloud ado
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={Fingerprint}
+                icon={MonetizationOnIcon}
                 title="Finance process outsourcing"
-                iconColor="danger"
+                iconColor="info"
                 description=""
               />
               <Typography component="div" style={{textAlign:"left"}}>
@@ -170,9 +165,9 @@ The cloud brings security, momentum, and cost-efficiency. WittyAnt’s cloud ado
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
-                icon={Fingerprint}
+                icon={AccountTreeIcon}
                 title="GBS Set up"
-                iconColor="danger"
+                iconColor="success"
                 description=""
               />
               <Typography component="div" style={{textAlign:"left"}}>

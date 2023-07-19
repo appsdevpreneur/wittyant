@@ -156,9 +156,10 @@ export default function SectionContacts({ ...rest }) {
                 title="Find us at the office"
                 description={
                   <span>
-                   400 Renaissance Center, Detroit, 
-                    <br /> MI 48243,
-                    <br /> United States
+                   #301, WeWork, 
+                    <br /> Kharadi,Pune,
+                    <br /> Maharastra,
+                    <br/> India
                   </span>
                 }
                 icon={PinDrop}
@@ -168,13 +169,89 @@ export default function SectionContacts({ ...rest }) {
                 title="Give us a ring"
                 description={
                   <span>
-                    Sunil
-                    <br /> +91 7032405627
+                    Vinod
+                    <br /> +91 9545459320
                     <br /> Mon - Fri, 8:00-22:00
                   </span>
                 }
                 icon={Phone}
               />
+            </GridItem>
+            <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
+              <Card className={classes.card1}>
+                <form>
+                  <CardHeader
+                    contact
+                    color="primary"
+                    className={classes.textCenter}
+                  >
+                    <h4 className={classes.cardTitle}>Contact Us</h4>
+                  </CardHeader>
+                  <CardBody>
+                    <GridContainer>
+                      <GridItem xs={12} sm={6} md={6}>
+                        <CustomInput
+                          labelText="First Name"
+                          id="first"
+                          formControlProps={{
+                            fullWidth: true
+                          }}
+                        />
+                      </GridItem>
+                      <GridItem xs={12} sm={6} md={6}>
+                        <CustomInput
+                          labelText="Last Name"
+                          id="last"
+                          formControlProps={{
+                            fullWidth: true
+                          }}
+                        />
+                      </GridItem>
+                    </GridContainer>
+                    <CustomInput
+                      labelText="Email Address"
+                      id="email-address"
+                      formControlProps={{
+                        fullWidth: true
+                      }}
+                    />
+                    <CustomInput
+                      labelText="Your Message"
+                      id="message"
+                      formControlProps={{
+                        fullWidth: true
+                      }}
+                      inputProps={{
+                        multiline: true,
+                        rows: 5
+                      }}
+                    />
+                  </CardBody>
+                  <CardFooter className={classes.justifyContentBetween}>
+                    <FormControlLabel
+                      control={
+                        <Checkbox
+                          tabIndex={-1}
+                          onClick={() => handleToggle(1)}
+                          checkedIcon={
+                            <Check className={classes.checkedIcon} />
+                          }
+                          icon={<Check className={classes.uncheckedIcon} />}
+                          classes={{
+                            checked: classes.checked,
+                            root: classes.checkRoot
+                          }}
+                        />
+                      }
+                      classes={{ label: classes.label }}
+                      label="I'm not a robot"
+                    />
+                    <Button color="primary" className={classes.pullRight}>
+                      Send Message
+                    </Button>
+                  </CardFooter>
+                </form>
+              </Card>
             </GridItem>
           </GridContainer>
         </div>

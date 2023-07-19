@@ -46,7 +46,7 @@ export default function SectionTeams({ ...rest }) {
                 <CardAvatar profile plain>
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
                     <img
-                      src="/img/faces/marc.jpg"
+                      src="/img/sunil.jpg"
                       alt="..."
                       className={classes.img}
                     />
