@@ -74,7 +74,7 @@ export default function SectionTestimonials({ ...rest }) {
                           <h5 className={classes.cardDescription}>
                             {'"'}I speak yell scream directly at the old guard on
                             behalf of the future. I gotta say at that time I’d like
-                            to meet Kanye I speak yell scream directly at the old
+                            to meet Vinod I speak yell scream directly at the old
                             guard on behalf of the future. My brother Chance!!!
                             <br />
                             Thank you for letting me work on this masterpiece. One
@@ -114,11 +114,11 @@ export default function SectionTestimonials({ ...rest }) {
                         <CardBody plain>
                           <h5 className={classes.cardDescription}>
                             {'"'}Thank you Vinod for the invite thank you to the
-                            whole Vogue team Called I Miss the Old Kanye At the God
-                            {"'"}s last game Chop up the soul Kanye. I promise I
+                            whole Vogue team Called I Miss the Old Vinod At the God
+                            {"'"}s last game Chop up the soul Vinod. I promise I
                             will never let the people down. I want a better life for
-                            all!!! Pablo Pablo Pablo Pablo! Thank you Vinod for the
-                            invite thank you to the whole Vogue team.{'"'}
+                            all!!!! Thank you Vinod for the
+                            invite thank you to the whole WittyAnt team.{'"'}
                           </h5>
                           <h4 className={classes.cardTitle}>P V Rao</h4>
                           <Muted>

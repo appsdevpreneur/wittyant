@@ -14,8 +14,9 @@ import SectionTeams from "/pages-sections/sections-page/SectionTeams.js";
 import SectionProjects from "/pages-sections/sections-page/SectionProjects.js";
 import SectionTestimonials from "/pages-sections/sections-page/SectionTestimonials.js";
 import SectionContacts from "/pages-sections/sections-page/SectionContacts.js";
-// import SectionBlogs from "/pages-sections/sections-page/SectionBlogs.js";
 import sectionsPageStyle from "/styles/jss/witty-ant/pages/sectionsPageStyle.js";
+import Footer from "../components/Footer/Footer";
+import Button from "/components/CustomButtons/Button.js";
 
 const useStyles = makeStyles(sectionsPageStyle);
 
@@ -295,6 +296,48 @@ export default function SectionsPage() {
           </li>
         </ul>
       </nav>
+      <Footer
+          className={classes.footer}
+          content={
+            <div>
+              <div className={classes.left}>
+              <Button
+                    href="https://twitter.com/wittyanthill"
+                    target="_blank"
+                    color="twitter"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-twitter" />
+                  </Button>
+                  <Button
+                    href="https://instagram.com/wittyanthill?igshid=MzNlNGNkZWQ4Mg=="
+                    target="_blank"
+                    color="instagram"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-instagram" />
+                  </Button>
+                  <Button   href="https://www.facebook.com/people/WittyAnt/100094870993690" 
+                  justIcon simple color="facebook">
+                      <i className="fab fa-facebook-square" />
+                    </Button>
+              </div>
+              <div className={classes.right}>
+                &copy; {1900 + new Date().getYear()} , made {" "}
+                by{" "}
+                <a
+                  href="  "
+                  target="_blank"
+                   style={{color: "gray"}}
+                >
+                  WittyAnt
+                </a>{" "}
+              </div>
+            </div>
+          }
+        />
     </div>
   );
 }

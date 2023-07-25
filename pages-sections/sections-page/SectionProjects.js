@@ -54,9 +54,7 @@ export default function SectionProjects({ ...rest }) {
                 Some of Our Awesome E-Commerce Products
               </h2>
               <h5 className={classes.description}>
-                This is the paragraph where you can write more details about
-                your projects. Keep you user engaged by providing meaningful
-                information.
+              We understood Who’s target buyer?what they need and What are their pain points? and we came up with a solution.
               </h5>
               <div className={classes.sectionSpace} />
             </GridItem>

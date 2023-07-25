@@ -33,122 +33,53 @@ export default function SectionTeams({ ...rest }) {
                 classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
               }
             >
-              <h2 className={classes.title}>Our Team</h2>
-              <h5 className={classes.description}>
-              Our team is the foundation of a high-performing business and a good team ethic can be held largely accountable for the success and smooth running of the organization. 
-              So Thats what our teams does to ensure that they are collectively productive and drive the company forward
-              </h5>
+              <h2 className={classes.title}>Our Leadership</h2>
+              <Muted>
+              <h4 className={classes.cardTitle}>
+              Our leadership is the foundation of a high-performing business and a good team ethic can be held largely accountable for the success and smooth running of the organization. 
+              So Thats what our leadership does to ensure that they are collectively productive and drive the company forward
+              </h4>
+              </Muted>
             </GridItem>
           </GridContainer>
           <GridContainer>
             <GridItem xs={12} sm={6} md={6}>
               <Card profile plain>
-                <CardAvatar profile plain>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    <img
-                      src="/img/sunil.jpg"
-                      alt="..."
-                      className={classes.img}
-                    />
-                  </a>
-                </CardAvatar>
                 <CardBody>
-                  <h4 className={classes.cardTitle}>Sunil</h4>
+                  <h4 className={classes.cardTitle}>Nanma Nambiar Nikalji </h4>
                   <Muted>
-                    <h6 className={classes.cardCategory}>Full Stack Developer</h6>
+                    <h6 className={classes.cardCategory}>CEO</h6>
                   </Muted>
-                  <p className={classes.description}>
-                    And I love you like Kanye loves Kanye. We need to restart
-                    the human foundation.
-                  </p>
+                  <Muted>
+                    <h5 >
+                  She is an MBBS from Grant Medical College and an MD in Dermatology from GSMC and King Edward Memorial Hospital Mumbai.
+She has clinical experience in Skin and Medicine areas for over last 23 years. She brings in diverse perspectives in our AI Strategy for Clinical applications and will be central to the digital transformation offerings we offer to our clients.
+                </h5>
+                </Muted>
                 </CardBody>
-                <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="facebook"
-                    className={classes.btn}
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fab fa-facebook" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="google"
-                    className={classes.btn}
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fab fa-google" />
-                  </Button>
-                </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={6} md={6}>
               <Card profile plain>
-                <CardAvatar profile plain>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    <img
+                {/* <CardAvatar profile plain> */}
+                  {/* <a href="#pablo" onClick={(e) => e.preventDefault()}> */}
+                    {/* <img
                       src="/img/faces/marc.jpg"
                       alt="..."
                       className={classes.img}
-                    />
-                  </a>
-                </CardAvatar>
+                    /> */}
+                  {/* </a> */}
+                {/* </CardAvatar> */}
                 <CardBody>
-                  <h4 className={classes.cardTitle}>Venkat Naga Gopi</h4>
+                  <h4 className={classes.cardTitle}>BV Ankith</h4>
                   <Muted>
-                    <h6 className={classes.cardCategory}>UI / UX DESIGNER , MERN Stack Developer</h6>
+                    <h6 className={classes.cardCategory}>CTO</h6>
                   </Muted>
-                  <p className={classes.description}>
-                    Don{"'"}t be scared of the truth because we need to restart
-                    the human foundation. And I love you like Kanye loves Kanye.
-                  </p>
+                  <Muted>
+                    <h5 >Ankith is WittyAnt’s Tech Leader in areas of Artificial Intelligence, Data Science and IOT, He has experience in  AI Implementations in Nice Medical Applications, Industrial Automation . He is a  Master in Science – MS Computational Science and Engineering from the Technical University of Munich majoring in Machine learning , Deep learning ,Information retrieval and Scientific Computing.</h5>
+                  </Muted>
+                 
                 </CardBody>
-                <CardFooter profile className={classes.justifyContent}>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="twitter"
-                    className={classes.btn}
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="dribbble"
-                    className={classes.btn}
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
-                  <Button
-                    href="#pablo"
-                    justIcon
-                    simple
-                    color="linkedin"
-                    className={classes.btn}
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fab fa-linkedin" />
-                  </Button>
-                </CardFooter>
               </Card>
             </GridItem>
           </GridContainer>

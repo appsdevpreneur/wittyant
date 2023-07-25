@@ -174,7 +174,7 @@ export default function LoginPage() {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="http://blog.creative-tim.com/?ref=njsmkp-login"
+                      href="  "
                       className={classes.block}
                     >
                       Blog
@@ -195,7 +195,7 @@ export default function LoginPage() {
                 &copy; {1900 + new Date().getYear()} , made with{" "}
                 <Favorite className={classes.icon} /> by{" "}
                 <a
-                  href="https://www.creative-tim.com?ref=njsmkp-login"
+                  href="  "
                   target="_blank"
                 >
                   Creative Tim

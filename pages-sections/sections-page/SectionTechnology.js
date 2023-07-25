@@ -42,7 +42,7 @@ export default function SectionTechnology({ ...rest }) {
       <div>
         <div
           className={classes.pageHeader}
-          style={{ backgroundImage: "url('/img/virtual-technologies.jpg')" }}
+          style={{ backgroundImage: "url('/img/vr_tech.jpeg')" }}
         >
       <div className={classes.container}>
         {/* Feature 1 START */}
