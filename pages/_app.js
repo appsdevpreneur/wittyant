@@ -90,26 +90,26 @@ export default class MyApp extends App {
     document.insertBefore(comment, document.documentElement);
   }
   static async getInitialProps({ Component, router, ctx }) {
-    let pageProps = {};
-
+    
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx);
     }
-
+    
     return { pageProps };
   }
   render() {
     const { Component, pageProps } = this.props;
-
+    
     return (
       <React.Fragment>
         <Head>
+        let pageProps = {};
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE" />
-          <title>Witty Ant</title>
+          <title>WittyAnt</title>
         </Head>
         <ThemeProvider theme={theme}>
           <StyledEngineProvider injectFirst>

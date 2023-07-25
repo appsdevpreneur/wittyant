@@ -45,7 +45,7 @@ export default function SectionHeaders({ ...rest }) {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={6} md={6}>
-                <h1 className={classes.title}>Witty Ant</h1>
+                <h1 className={classes.title}>WittyAnt</h1>
                 <h4>
                   An Aspiring young organization Led by Leaders with technology consulting experience of 2000 + Man months between them.
                   Vision – To contributes to the overall wellbeing of the communities it operates it business in and a reach beyond,   customers, and its employees while also being committed to building a sustainable world
