@@ -64,6 +64,15 @@ const infoStyle = {
       fontSize: "14px"
     }
   },
+  short_description: {
+    color: grayColor[1],
+    overflow: "hidden",
+    marginTop: "0px",
+    "& p": {
+      color: grayColor[1],
+      fontSize: "14px"
+    }
+  },
   iconWrapperVertical: {
     float: "none"
   },

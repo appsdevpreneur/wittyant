@@ -11,7 +11,7 @@ import styles from "/styles/jss/witty-ant/components/infoStyle.js";
 const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
-  const { title, description, iconColor, vertical, className } = props;
+  const { title, description, iconColor, vertical, className ,short_description} = props;
   const classes = useStyles();
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
@@ -41,6 +41,7 @@ export default function InfoArea(props) {
       <div className={classes.descriptionWrapper}>
         <h4 className={classes.title}>{title}</h4>
         <div className={classes.description}>{description}</div>
+        <div className={classes.short_description}>{short_description}</div>
       </div>
     </div>
   );

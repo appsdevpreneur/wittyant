@@ -70,6 +70,7 @@ Router.events.on("routeChangeError", () => {
 });
 
 export default class MyApp extends App {
+  
   componentDidMount() {
     let comment = document.createComment(`
 
@@ -87,12 +88,13 @@ export default class MyApp extends App {
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 `);
+  
     document.insertBefore(comment, document.documentElement);
   }
   static async getInitialProps({ Component, router, ctx }) {
-    
+    let pageProps = {};
     if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
+      pageProps = await MyApp.getInitialProps(ctx);
     }
     
     return { pageProps };
@@ -103,7 +105,6 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-        let pageProps = {};
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"

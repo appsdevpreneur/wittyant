@@ -22,13 +22,7 @@ export default function ErrorPage({ ...rest }) {
   const classes = useStyles();
   return (
     <div>
-      {/* <Header
-        absolute
-        color="transparent"
-        brand="NextJS Material Kit PRO"
-        links={<HeaderLinks dropdownHoverColor="dark" />}
-        {...rest}
-      /> */}
+    
       <div
         className={classes.pageHeader}
         style={{
@@ -37,7 +31,7 @@ export default function ErrorPage({ ...rest }) {
           backgroundPosition: "top center"
         }}
       >
-        {/* <div className={classes.container}> */}
+        <div className={classes.container}>
         <div className={classes.contentCenter}>
           <GridContainer>
             <GridItem md={12}>
@@ -49,9 +43,9 @@ export default function ErrorPage({ ...rest }) {
             </GridItem>
           </GridContainer>
         </div>
-        {/* </div> */}
+        </div>
       </div>
-      <Footer
+      {/* <Footer
           className={classes.footer}
           content={
             <div>
@@ -92,7 +86,7 @@ export default function ErrorPage({ ...rest }) {
               </div>
             </div>
           }
-        />
+        /> */}
     </div>
   );
 }

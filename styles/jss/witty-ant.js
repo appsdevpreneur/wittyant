@@ -105,9 +105,8 @@ const infoColor = [
 ];
 const roseColor = ["#e91e63", "#ec407a", "#d81b60", "#f8bbd0", "#f06292"];
 const grayColor = [
-  // "#fff",
-  "#818589",
   "#3C4858",
+  "#fff",
   "#eee",
   "#343434",
   "#585858",
@@ -326,7 +325,7 @@ const defaultBoxShadow = {
 };
 
 const title = {
-  color: grayColor[1],
+  color: grayColor[0],
   textDecoration: "none",
   fontWeight: "700",
   marginTop: "30px",

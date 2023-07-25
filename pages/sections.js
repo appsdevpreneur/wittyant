@@ -97,10 +97,10 @@ export default function SectionsPage() {
         <SectionServices id="services" />
         <SectionIndustries id="industries" />
         <SectionTechnology id="technology" />
-        <SectionOffices id="offices" />
-        <SectionTeams id="teams" />
         <SectionProjects id="projects" />
+        <SectionTeams id="teams" />
         <SectionTestimonials id="testimonials" />
+        <SectionOffices id="offices" />
         <SectionContacts id="contacts" />
       </div>
       <nav id="cd-vertical-nav">
@@ -191,29 +191,8 @@ export default function SectionsPage() {
           </li>
           <li>
             <a
-              href="#teams"
-              data-number="5"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("teams");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Teams</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="#projects"
-              data-number="6"
+              data-number="5"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -229,6 +208,27 @@ export default function SectionsPage() {
             >
               <span className="cd-dot" />
               <span className="cd-label">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#teams"
+              data-number="6"
+              className=""
+              onClick={(e) => {
+                var isMobile = navigator.userAgent.match(
+                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
+                );
+                if (isMobile) {
+                  // if we are on mobile device the scroll into view will be managed by the browser
+                } else {
+                  e.preventDefault();
+                  smoothScroll("teams");
+                }
+              }}
+            >
+              <span className="cd-dot" />
+              <span className="cd-label">Teams</span>
             </a>
           </li>
           <li>

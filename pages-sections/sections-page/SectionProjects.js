@@ -3,21 +3,14 @@ import React from "react";
 import makeStyles from '@mui/styles/makeStyles';
 import Icon from "@mui/material/Icon";
 // @mui/icons-material
-import Build from "@mui/icons-material/Build";
-import Subject from "@mui/icons-material/Subject";
-import FormatPaint from "@mui/icons-material/FormatPaint";
+
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
-import AddchartIcon from '@mui/icons-material/Addchart';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
-import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import TuneIcon from '@mui/icons-material/Tune';
 import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
-import Code from "@mui/icons-material/Code";
 import Dashboard from "@mui/icons-material/Dashboard";
-import Timeline from "@mui/icons-material/Timeline";
-import Group from "@mui/icons-material/Group";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
