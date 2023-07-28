@@ -43,6 +43,7 @@ import CustomDropdown from "/components/CustomDropdown/CustomDropdown.js";
 import Button from "/components/CustomButtons/Button.js";
 
 import styles from "/styles/jss/witty-ant/components/headerLinksStyle.js";
+import { Typography } from "@mui/material";
 
 const useStyles = makeStyles(styles);
 
@@ -90,6 +91,10 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <>
+     <img src="/img/logo/logo_trans.png"  alt="wittyant" style={{width:"5rem", height:"5rem"}} />
+     <Typography style={{fontFamily:"Roboto Slab, Times New Roman, serif",fontWeight:800,minHeight: "20px"}}>WittyAnt</Typography>
+     <img src="/img/logo/title.png"  alt="wittyant" style={{width:"5rem", height:"5rem"}} />
+     <span style={{marginLeft:"5px"}}></span>
         <Link href="/sections#aboutus">
       <a
         className={classes.dropdownLink}
@@ -106,14 +111,7 @@ export default function HeaderLinks(props) {
           Services
         </a>
       </Link>
-      {/* <Link href="/sections#industries">
-        <a
-          className={classes.dropdownLink}
-          onClick={(e) => smoothScroll(e, "industries")}
-        >
-          Industries
-        </a>
-      </Link> */}
+    
        <Link href="/sections#industries">
         <a
           className={classes.dropdownLink}

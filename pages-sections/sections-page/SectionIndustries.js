@@ -9,9 +9,6 @@ import Card from "/components/Card/Card.js";
 import CardBody from "/components/Card/CardBody.js";
 import CardHeader from "/components/Card/CardHeader.js";
 import Info from "/components/Typography/Info.js";
-import Danger from "/components/Typography/Danger.js";
-import Success from "/components/Typography/Success.js";
-import Button from "/components/CustomButtons/Button.js";
 
 import blogsStyle from "/styles/jss/witty-ant/pages/sectionsSections/blogsStyle.js";
 import { Typography } from "@mui/material";
@@ -40,13 +37,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/retail.jpeg" alt="..." />
+                        <img src="/img/latest/consumer-product.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/retail.jpeg')",
+                            "url('/img/latest/consumer-product.jpg')",
                           opacity: "1"
                         }}
                       />
@@ -65,13 +62,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/automotive.jpeg" alt="..." />
+                        <img src="/img/latest/automotive.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/automotive.jpeg')",
+                            "url('/img/latest/automotive.jpg')",
                           opacity: "1"
                         }}
                       />
@@ -90,13 +87,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/cpg.jpeg" alt="..." />
+                        <img src="/img/latest/consumer-product.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/cpg.jpeg')",
+                            "url('/img/latest/consumer-product.jpg')",
                           opacity: "1"
                         }}
                       />
@@ -115,13 +112,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/ship-building.jpg" alt="..." />
+                        <img src="/img/latest/ship-building.png" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/ship-building.jpg')",
+                            "url('/img/latest/ship-building.png')",
                           opacity: "1"
                         }}
                       />
@@ -140,13 +137,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/manufacturing-ai.jpeg" alt="..." />
+                        <img src="/img/latest/manufacturing_ai.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/manufacturing-ai.jpeg')",
+                            "url('/img/latest/manufacturing_ai.jpg')",
                           opacity: "1"
                         }}
                       />
@@ -165,13 +162,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/pharma.jpeg" alt="..." />
+                        <img src="/img/latest/pharma.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/pharma.jpeg')",
+                            "url('/img/latest/pharma.jpg')",
                           opacity: "1"
                         }}
                       />
@@ -186,31 +183,7 @@ export default function SectionIndustries({ ...rest }) {
                     </CardBody>
                   </Card>
                 </GridItem>
-                <GridItem xs={12} sm={4} md={4}>
-                  <Card plain blog>
-                    <CardHeader plain image>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/banking.jpeg" alt="..." />
-                      </a>
-                      <div
-                        className={classes.coloredShadow}
-                        style={{
-                          backgroundImage:
-                            "url('/img/banking.jpeg')",
-                          opacity: "1"
-                        }}
-                      />
-                    </CardHeader>
-                    <CardBody plain>
-                      <Info>
-                        <h6 className={classes.cardCategory}>Banking and Financials </h6>
-                      </Info>
-                      <h5 className={classes.cardTitle}>
-                        While adopting AI, most banks initially prioritize productivity gains by automating repetitive tasks and bolstering fraud detection and monitoring methods to mitigate regulatory risks. Furthermore, some banks have begun implementing AI solutions in their capital market operations. WittyAnt offers artificial intelligence products and data insights, harnessed through WittyAntAI.
-                      </h5>
-                    </CardBody>
-                  </Card>
-                </GridItem>
+                
               </GridContainer>
             </GridItem>
           </GridContainer>

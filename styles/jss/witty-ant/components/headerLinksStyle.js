@@ -187,7 +187,7 @@ const headerLinksStyle = (theme) => ({
       color: "inherit",
       textDecoration: "solid",
       fontFamily: 'Roboto',
-      fontWeight: 500,
+      fontWeight: 450,
       display: "flex",
       padding: "0.75rem 1.25rem 0.75rem 0.75rem"
     }

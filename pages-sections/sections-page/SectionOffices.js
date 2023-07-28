@@ -31,7 +31,7 @@ export default function SectionOffices({ ...rest }) {
       {/* Feature 5 START */}
       <div
         className={classes.features5}
-        style={{ backgroundImage: "url('/img/our-offices.jpeg')" }}
+        style={{ backgroundImage: "url('/img/latest/our-offices.jpg')" }}
         // style={{ backgroundImage: "url('/img/examples/office3.jpg')" }}
       >
         <GridContainer className={classes.margin0}>
