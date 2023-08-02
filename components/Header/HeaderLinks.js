@@ -91,16 +91,29 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <>
-     <img src="/img/logo/logo_trans.png"  alt="wittyant" style={{width:"5rem", height:"5rem"}} />
-     <Typography style={{fontFamily:"Roboto Slab, Times New Roman, serif",fontWeight:800,minHeight: "20px"}}>WittyAnt</Typography>
-     <img src="/img/logo/title.png"  alt="wittyant" style={{width:"5rem", height:"5rem"}} />
+     <img src="/img/logo/logo_trans_bg.png"  alt="wittyant" style={{width:"3rem", height:"3rem",marginRight:"1.5rem"}} />
+     <div ><Typography
+            noWrap
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              fontFamily: 'monospace',
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+              fontFamily:"Roboto Slab, Times New Roman, serif",fontWeight:800,minHeight: "20px"
+            }}
+          >
+            WittyAnt
+          </Typography></div>
      <span style={{marginLeft:"5px"}}></span>
         <Link href="/sections#aboutus">
       <a
         className={classes.dropdownLink}
         onClick={(e) => smoothScroll(e, "aboutus")}
       >
-        About Us
+       <span style={{whiteSpace: "nowrap"}}> About Us</span>
       </a>
     </Link>
       <Link href="/sections#services">
@@ -120,14 +133,14 @@ export default function HeaderLinks(props) {
           Industries
         </a>
       </Link>
-      <Link href="/sections#technology">
+      {/* <Link href="/sections#technology">
         <a
           className={classes.dropdownLink}
           onClick={(e) => smoothScroll(e, "technology")}
         >
           Technology
         </a>
-      </Link>
+      </Link> */}
       <Link href="/sections#projects">
         <a
           className={classes.dropdownLink}
@@ -165,7 +178,7 @@ export default function HeaderLinks(props) {
           className={classes.dropdownLink}
           onClick={(e) => smoothScroll(e, "contacts")}
         >
-          Contact Us
+          <span style={{whiteSpace: "nowrap"}}> Contact Us</span>
         </a>
       </Link>
     </>

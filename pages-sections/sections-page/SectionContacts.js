@@ -147,22 +147,23 @@ export default function SectionContacts({ ...rest }) {
           <GridContainer>
             <GridItem xs={12} sm={5} md={5}>
               <h2 className={classes.title}>Get in Touch</h2>
-              <h5 className={classes.description}>
-                You need more information? Check what other persons are saying
-                about our product. They are very happy with their purchase.
-              </h5>
               <InfoArea
                 className={classes.infoArea}
-                title="Find us at the office"
-                description={
-                  <span>
-                   #301, WeWork, 
-                    <br /> Kharadi,Pune,
-                    <br /> Maharastra,
-                    <br/> India
-                  </span>
-                }
-                icon={PinDrop}
+                title="What Does Your Business Need?"
+                description={""}
+                icon={""}
+              />
+              <InfoArea
+                className={classes.infoArea}
+                title="Learn how WittyAnt Technologies can move your technology and business strategy forward. Please contact us with any inquiries or requests to help you grow your business."
+                description={""}
+                icon={""}
+              />
+              <InfoArea
+                className={classes.infoArea}
+                title="You need a partner. We're here to help"
+                description={"Before we start "}
+                icon={""}
               />
               <InfoArea
                 className={classes.infoArea}

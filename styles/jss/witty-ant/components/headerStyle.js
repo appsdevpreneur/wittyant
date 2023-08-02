@@ -33,7 +33,7 @@ const headerStyle = (theme) => ({
       hexToRgb(blackColor) +
       ", 0.15)",
     transition: "all 150ms ease 0s",
-    alignItems: "center",
+    alignItems: "right",
     flexFlow: "row nowrap",
     justifyContent: "flex-start",
     position: "relative"
@@ -60,6 +60,23 @@ const headerStyle = (theme) => ({
       minWidth: "unset",
       lineHeight: "30px",
       fontSize: "18px",
+      borderRadius: "3px",
+      textTransform: "none",
+      whiteSpace: "nowrap",
+      color: "inherit",
+      "&:hover,&:focus": {
+        color: "inherit",
+        background: "transparent"
+      }
+    }
+  },
+  subtitle: {
+    letterSpacing: "unset",
+    "&,& a": {
+      ...defaultFont,
+      minWidth: "unset",
+      lineHeight: "25px",
+      fontSize: "15px",
       borderRadius: "3px",
       textTransform: "none",
       whiteSpace: "nowrap",

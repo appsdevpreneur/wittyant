@@ -96,7 +96,7 @@ export default function SectionsPage() {
         <SectionAboutUs id="aboutus" />
         <SectionServices id="services" />
         <SectionIndustries id="industries" />
-        <SectionTechnology id="technology" />
+        {/* <SectionTechnology id="technology" /> */}
         <SectionProjects id="projects" />
         <SectionTeams id="teams" />
         <SectionTestimonials id="testimonials" />
@@ -168,7 +168,7 @@ export default function SectionsPage() {
               <span className="cd-label">Industries</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#technology"
               data-number="4"
@@ -188,11 +188,11 @@ export default function SectionsPage() {
               <span className="cd-dot" />
               <span className="cd-label">Technology</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#projects"
-              data-number="5"
+              data-number="4"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -213,7 +213,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#teams"
-              data-number="6"
+              data-number="5"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -234,7 +234,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#testimonials"
-              data-number="7"
+              data-number="6"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -255,7 +255,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#offices"
-              data-number="8"
+              data-number="7"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -276,7 +276,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#contacts"
-              data-number="9"
+              data-number="8"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(

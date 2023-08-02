@@ -333,6 +333,15 @@ const title = {
   minHeight: "32px",
   fontFamily: `"Roboto Slab", "Times New Roman", serif`,
 };
+const subtitle = {
+  color: grayColor[0],
+  textDecoration: "none",
+  fontWeight: "600",
+  marginTop: "30px",
+  marginBottom: "25px",
+  minHeight: "28px",
+  fontFamily: `"Roboto Slab", "Times New Roman", serif`,
+};
 
 const cardTitle = {
   "&, & a": {
@@ -480,6 +489,7 @@ export {
   cardHeader,
   defaultBoxShadow,
   title,
+  subtitle,
   cardTitle,
   description,
   cardLink,

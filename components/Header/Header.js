@@ -16,6 +16,7 @@ import Menu from "@mui/icons-material/Menu";
 import Close from "@mui/icons-material/Close";
 // core components
 import styles from "/styles/jss/witty-ant/components/headerStyle.js";
+import { Typography } from "@mui/material";
 
 const useStyles = makeStyles(styles);
 
@@ -65,13 +66,23 @@ export default function Header(props) {
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
-        <Button className={classes.title}>
-          <Link href="/presentation">
-            <a className={classes.title}>{brand}
-            <h1 className={classes.title}>{brand}</h1>
-            </a>
-          </Link>
-        </Button>
+      {/* <div ><Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              fontFamily: 'monospace',
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+              fontFamily:"Roboto Slab, Times New Roman, serif",fontWeight:800,minHeight: "20px"
+            }}
+          >
+            WittyAnt
+          </Typography></div> */}
         <Hidden mdDown implementation="css" className={classes.hidden}>
           <div className={classes.collapse}>{links}</div>
         </Hidden>

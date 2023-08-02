@@ -178,7 +178,7 @@ export default function SectionIndustries({ ...rest }) {
                         <h6 className={classes.cardCategory}>Pharma</h6>
                       </Info>
                       <h5 className={classes.cardTitle}>
-                        Amidst the challenges posed by increasing intricacy, expenses, and regulatory demands, a growing number of pharmaceutical executives are turning their attention to Industry 4.0 manufacturing and implementation of cloud based enterprise applications. This promises to significantly curtail pharmaceutical manufacturing expenses, elevate product quality, and alleviate capacity limitations.  WittyAnt offers Industry 4.0 Support. We also offer Medical writing services where we offer a clear, concise, and well-organized approach to scientific writing, assisting companies with drug development and post-approval documentation.
+                        Amidst the challenges posed by increasing intricacy, expenses, and regulatory demands, a growing number of pharmaceutical executives are turning their attention to Industry 4.0 manufacturing and implementation of cloud based enterprise applications. This promises to significantly curtail pharmaceutical manufacturing expenses, elevate product quality, and alleviate capacity limitations.  WittyAnt offers Industry 4.0 Support.
                       </h5>
                     </CardBody>
                   </Card>
