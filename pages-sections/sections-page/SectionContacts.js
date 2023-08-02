@@ -18,6 +18,7 @@ import CustomInput from "/components/CustomInput/CustomInput.js";
 import Button from "/components/CustomButtons/Button.js";
 
 import contactsStyle from "/styles/jss/witty-ant/pages/sectionsSections/contactsStyle.js";
+import { Typography } from "@mui/material";
 
 const useStyles = makeStyles(contactsStyle);
 
@@ -162,18 +163,16 @@ export default function SectionContacts({ ...rest }) {
               <InfoArea
                 className={classes.infoArea}
                 title="You need a partner. We're here to help"
-                description={"Before we start "}
+                description={""}
                 icon={""}
               />
               <InfoArea
                 className={classes.infoArea}
                 title="Give us a ring"
                 description={
-                  <span>
-                    Vinod
-                    <br /> +91 9545459320
-                    <br /> Mon - Fri, 8:00-22:00
-                  </span>
+                    <span ><Typography style={{color:"white",fontWeight:"700"}}>Vinod</Typography>
+                    <Typography style={{color:"white",fontWeight:"700"}}>+91 9545459320</Typography>
+                    <Typography style={{color:"white",fontWeight:"700"}}>Mon - Fri, 8:00-22:00</Typography></span>
                 }
                 icon={Phone}
               />

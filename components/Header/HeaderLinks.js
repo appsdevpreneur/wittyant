@@ -181,6 +181,14 @@ export default function HeaderLinks(props) {
           <span style={{whiteSpace: "nowrap"}}> Contact Us</span>
         </a>
       </Link>
+      <Link href="/sections#careers">
+        <a
+          className={classes.dropdownLink}
+          onClick={(e) => smoothScroll(e, "careers")}
+        >
+          <span style={{whiteSpace: "nowrap"}}> Careers</span>
+        </a>
+      </Link>
     </>
 
   );

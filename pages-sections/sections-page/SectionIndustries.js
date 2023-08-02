@@ -33,7 +33,7 @@ export default function SectionIndustries({ ...rest }) {
               <h2 className={classes.title}>Industries</h2>
               <br />
               <GridContainer>
-                <GridItem xs={12} sm={4} md={4}>
+                <GridItem xs={12} sm={6} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
@@ -58,7 +58,7 @@ export default function SectionIndustries({ ...rest }) {
                     </CardBody>
                   </Card>
                 </GridItem>
-                <GridItem xs={12} sm={4} md={4}>
+                <GridItem xs={12} sm={6} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
@@ -83,7 +83,7 @@ export default function SectionIndustries({ ...rest }) {
                     </CardBody>
                   </Card>
                 </GridItem>
-                <GridItem xs={12} sm={4} md={4}>
+                <GridItem xs={12} sm={6} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
@@ -108,7 +108,7 @@ export default function SectionIndustries({ ...rest }) {
                     </CardBody>
                   </Card>
                 </GridItem>
-                <GridItem xs={12} sm={4} md={4}>
+                <GridItem xs={12} sm={6} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
@@ -133,7 +133,7 @@ export default function SectionIndustries({ ...rest }) {
                     </CardBody>
                   </Card>
                 </GridItem>
-                <GridItem xs={12} sm={4} md={4}>
+                <GridItem xs={12} sm={6} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
@@ -158,7 +158,7 @@ export default function SectionIndustries({ ...rest }) {
                     </CardBody>
                   </Card>
                 </GridItem>
-                <GridItem xs={12} sm={4} md={4}>
+                <GridItem xs={12} sm={6} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
@@ -183,7 +183,64 @@ export default function SectionIndustries({ ...rest }) {
                     </CardBody>
                   </Card>
                 </GridItem>
-                
+                <GridItem xs={12} sm={6} md={4}>
+                  <Card plain blog>
+                    <CardHeader plain image>
+                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                        <img src="/img/telecom.jpeg" alt="..." />
+                      </a>
+                      <div
+                        className={classes.coloredShadow}
+                        style={{
+                          backgroundImage:
+                            "url('/img/telecom.jpeg')",
+                          opacity: "1"
+                        }}
+                      />
+                    </CardHeader>
+                    <CardBody plain>
+                      <Info>
+                        <h6 className={classes.cardCategory}>Telecom</h6>
+                      </Info>
+                      <h5 className={classes.cardTitle}>
+                      The telecom industry in this era has witnessed customer-focused disruptions,
+where digital-native companies have established a new benchmark for seamless
+online experiences, compelling traditional telecom companies to reimagine their customer engagement 
+approaches. Additionally, business-model disruptions have emerged, driven by transformative technologies
+like AI, big data, RPA and the Internet of Things, reshaping the way services are delivered and value is captured. 
+leverage Wittyant expertise to stay ahead.
+                      </h5>
+                    </CardBody>
+                  </Card>
+                </GridItem>
+                <GridItem xs={12} sm={6} md={4}>
+                  <Card plain blog>
+                    <CardHeader plain image>
+                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                        <img src="/img/latest/pharma.jpg" alt="..." />
+                      </a>
+                      <div
+                        className={classes.coloredShadow}
+                        style={{
+                          backgroundImage:
+                            "url('/img/latest/pharma.jpg')",
+                          opacity: "1"
+                        }}
+                      />
+                    </CardHeader>
+                    <CardBody plain>
+                      <Info>
+                        <h6 className={classes.cardCategory}>Energy and Utlities</h6>
+                      </Info>
+                      <h5 className={classes.cardTitle}>
+                      Energy and natural resources companies are rapidly expediting their digital transformation endeavors across various use cases, in the wake o 
+challenges posed by decarbonization and decentralisation. These include enhancing operational productivity, elevating the customer experience, exploring new business models, improving organizational performance, 
+and fulfilling ESG (Environmental, Social, and Governance) goals.WittyAnt helps modernization which in turn 
+providers custoers diversity their business models and opportunity to gain new revenue streams.
+                      </h5>
+                    </CardBody>
+                  </Card>
+                </GridItem>
               </GridContainer>
             </GridItem>
           </GridContainer>

@@ -9,6 +9,7 @@ import SectionAboutUs from "/pages-sections/sections-page/SectionAboutUs.js";
 import SectionServices from "/pages-sections/sections-page/SectionServices.js";
 import SectionIndustries from "/pages-sections/sections-page/SectionIndustries.js";
 import SectionTechnology from "/pages-sections/sections-page/SectionTechnology.js";
+import SectionCareers from "/pages-sections/sections-page/SectionCareers.js";
 import SectionOffices from "/pages-sections/sections-page/SectionOffices.js";
 import SectionTeams from "/pages-sections/sections-page/SectionTeams.js";
 import SectionProjects from "/pages-sections/sections-page/SectionProjects.js";
@@ -102,6 +103,7 @@ export default function SectionsPage() {
         <SectionTestimonials id="testimonials" />
         <SectionOffices id="offices" />
         <SectionContacts id="contacts" />
+        <SectionCareers id="careers" />
       </div>
       <nav id="cd-vertical-nav">
         <ul>
@@ -119,8 +121,8 @@ export default function SectionsPage() {
                 } else {
                   e.preventDefault();
                   smoothScroll("aboutus");
-                }
-              }}
+                }}
+              }
             >
               <span className="cd-dot" />
               <span className="cd-label">About Us</span>
@@ -292,6 +294,27 @@ export default function SectionsPage() {
             >
               <span className="cd-dot" />
               <span className="cd-label">Contact Us</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#careers"
+              data-number="9"
+              className=""
+              onClick={(e) => {
+                var isMobile = navigator.userAgent.match(
+                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
+                );
+                if (isMobile) {
+                  // if we are on mobile device the scroll into view will be managed by the browser
+                } else {
+                  e.preventDefault();
+                  smoothScroll("careers");
+                }
+              }}
+            >
+              <span className="cd-dot" />
+              <span className="cd-label">Careers</span>
             </a>
           </li>
         </ul>
