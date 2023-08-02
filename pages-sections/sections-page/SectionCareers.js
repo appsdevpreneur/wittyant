@@ -48,14 +48,14 @@ export default function SectionCareers({ ...rest }) {
               style={{ margin: "0!important" ,color:"gray"}}
             >
                <GridItem xs={12} sm={6} md ={4} lg={3} style={{margin:"1rem", padding:"1rem"}}>
-                <FormControl
+                {/* <FormControl
                   fullWidth
                   className={
                     classes.selectFormControl +
                     " " +
                     classes.selectUnderlineRoot
                   }
-                >
+                > */}
                   <InputLabel id="demo-simple-select-label">Specializations</InputLabel >
                   <Select
                     MenuProps={{
@@ -136,7 +136,7 @@ export default function SectionCareers({ ...rest }) {
                       SAP Cosultant
                     </MenuItem>
                   </Select>
-                </FormControl>
+                {/* </FormControl> */}
               </GridItem>
               <GridItem xs={12} sm={6} md ={4} lg={3} style={{margin:"1rem", padding:"1rem"}}>
                 <FormControl

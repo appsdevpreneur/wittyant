@@ -142,7 +142,7 @@ export default function SectionContacts({ ...rest }) {
       {/* Contact us 1 START */}
       <div
         className={classes.contacts + " " + classes.section}
-        style={{ backgroundImage: "url('/img/office2.jpg')" }}
+        // style={{ backgroundImage: "url('/img/office2.jpg')" }}
       >
         <div className={classes.container}>
           <GridContainer>
