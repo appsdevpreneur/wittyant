@@ -31,12 +31,6 @@ export default function SectionTeams({ ...rest }) {
               }
             >
               <h2 className={classes.title}>Our Leadership</h2>
-              <Muted>
-              <h4 className={classes.cardTitle}>
-              Our leadership is the foundation of a high-performing business and a good team ethic can be held largely accountable for the success and smooth running of the organization. 
-              So Thats what our leadership does to ensure that they are collectively productive and drive the company forward
-              </h4>
-              </Muted>
             </GridItem>
           </GridContainer>
           <GridContainer>
