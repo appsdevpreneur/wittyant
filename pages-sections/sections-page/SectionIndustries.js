@@ -187,13 +187,13 @@ export default function SectionIndustries({ ...rest }) {
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/telecom.jpeg" alt="..." />
+                        <img src="/img/telecom1.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/telecom.jpeg')",
+                            "url('/img/telecom1.jpg')",
                           opacity: "1"
                         }}
                       />
@@ -217,13 +217,13 @@ leverage Wittyant expertise to stay ahead.
                   <Card plain blog>
                     <CardHeader plain image>
                       <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/latest/pharma.jpg" alt="..." />
+                        <img src="/img/energy1.jpg" alt="..." />
                       </a>
                       <div
                         className={classes.coloredShadow}
                         style={{
                           backgroundImage:
-                            "url('/img/latest/pharma.jpg')",
+                            "url('/img/energy1.jpg')",
                           opacity: "1"
                         }}
                       />
