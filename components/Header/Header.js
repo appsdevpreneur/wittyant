@@ -65,6 +65,7 @@ export default function Header(props) {
   });
   return (
     <AppBar className={appBarClasses}>
+      
       <Toolbar className={classes.container}>
       {/* <div ><Typography
             variant="h6"
@@ -87,19 +88,24 @@ export default function Header(props) {
           <div className={classes.collapse}>{links}</div>
         </Hidden>
         <Hidden mdUp>
+        <img src="/img/logo/logo_trans_bg.png"  alt="wittyant" style={{width:"3rem", height:"3rem",marginRight:"1.5rem"}} />
+        </Hidden>
+        <Hidden mdUp>WittyAnt</Hidden>
+        <Hidden mdUp>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             onClick={handleDrawerToggle}
-            size="large">
+            size="large"
+            >
+            
             <Menu />
           </IconButton>
         </Hidden>
       </Toolbar>
       <Hidden mdUp implementation="js">
         <Drawer
-          variant="temporary"
-          anchor={"right"}
+          anchor={"start"}
           open={mobileOpen}
           classes={{
             paper: classes.drawerPaper

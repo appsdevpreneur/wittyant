@@ -41,7 +41,7 @@ import Error from "@mui/icons-material/Error";
 // core components
 import CustomDropdown from "/components/CustomDropdown/CustomDropdown.js";
 import Button from "/components/CustomButtons/Button.js";
-
+import {motion,AnimatePresence} from "framer-motion"
 import styles from "/styles/jss/witty-ant/components/headerLinksStyle.js";
 import { Typography } from "@mui/material";
 
@@ -92,12 +92,14 @@ export default function HeaderLinks(props) {
   return (
     <>
      <img src="/img/logo/logo_trans_bg.png"  alt="wittyant" style={{width:"3rem", height:"3rem",marginRight:"1.5rem"}} />
-     <div ><Typography
+     
+     <div >
+      <Typography
             noWrap
             href="/"
             sx={{
               mr: 2,
-              display: { xs: 'none', md: 'flex' },
+              display: { xs: 'flex', md: 'flex' },
               fontFamily: 'monospace',
               letterSpacing: '.3rem',
               color: 'inherit',
@@ -107,13 +109,14 @@ export default function HeaderLinks(props) {
           >
             WittyAnt
           </Typography></div>
-     <span style={{marginLeft:"5px"}}></span>
+
+     <span style={{marginLeft:"10px"}}></span>
         <Link href="/sections#aboutus">
       <a
         className={classes.dropdownLink}
         onClick={(e) => smoothScroll(e, "aboutus")}
       >
-       <span style={{whiteSpace: "nowrap"}}> About Us</span>
+       <span style={{whiteSpace: "nowrap" }}> About Us</span>
       </a>
     </Link>
       <Link href="/sections#services">
