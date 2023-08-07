@@ -41,7 +41,6 @@ import Error from "@mui/icons-material/Error";
 // core components
 import CustomDropdown from "/components/CustomDropdown/CustomDropdown.js";
 import Button from "/components/CustomButtons/Button.js";
-import {motion,AnimatePresence} from "framer-motion"
 import styles from "/styles/jss/witty-ant/components/headerLinksStyle.js";
 import { Typography } from "@mui/material";
 
