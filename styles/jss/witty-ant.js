@@ -364,7 +364,7 @@ const cardSubtitle = {
 };
 
 const main = {
-  background: whiteColor,
+  background: blackColor,
   position: "relative",
   zIndex: "3",
 };
@@ -405,7 +405,7 @@ const sectionDark = {
 };
 
 const sectionDescription = {
-  marginTop: "130px",
+  marginTop: "150px",
 };
 
 const description = {
