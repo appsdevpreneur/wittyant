@@ -38,10 +38,10 @@ export default function SectionHeaders({ ...rest }) {
       <div className={classes.sectionBlank} id="blanksection" />
       {/* HEADER 1 START */}
       <div>
-        <div
-          className={classes.pageHeader}
+        <div className={classes.pageHeader}
           style={{ backgroundImage: "url('/img/bg111.jpg')" }}
         >
+			
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={12}>
@@ -79,8 +79,8 @@ export default function SectionHeaders({ ...rest }) {
                 </ul>
                 <br />
               </GridItem>
-              </GridContainer>
-              <GridContainer>
+              
+
               <GridItem xs={12} sm={6} md={6}>
                 <h4 className={classes.title}>Values</h4>
                 <ul>
@@ -93,14 +93,20 @@ export default function SectionHeaders({ ...rest }) {
                     <h4>Strive</h4>
                   </li>
                 </ul>
-                {/* <h5>Are you prepared to embark on this thrilling adventure with us? Discover our website to gain deeper insights into our diverse range of products and services?. Feel free to contact our team to explore how we can contribute to the prosperity of your business.</h5>
-                <br /> */}
+				</GridItem>
+				
+            
+              
+              <GridItem xs={12} sm={12} md={12}>
+              <h4 className={classes.title}>Vision</h4>
+                <ul>
+                  <li><h4>
+                Are you prepared to embark on this thrilling adventure with us? Discover our website to gain deeper insights into our diverse range of products and services?. Feel free to contact our team to explore how we can contribute to the prosperity of your business.
+				</h4></li>
+                </ul>
               </GridItem>
-              <GridItem xs={12} sm={6} md={6}>
-              <h4 className={classes.title}>
-                Are you prepared to embark on this thrilling adventure with us? Discover our website to gain deeper insights into our diverse range of products and services?. Feel free to contact our team to explore how we can contribute to the prosperity of your business.</h4>
-              </GridItem>
-              </GridContainer>
+			  </GridContainer>
+
           </div>
         </div>
       </div>
