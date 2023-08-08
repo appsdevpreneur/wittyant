@@ -90,7 +90,22 @@ export default function Header(props) {
         <Hidden mdUp>
         <img src="/img/logo/logo_trans_bg.png"  alt="wittyant" style={{width:"3rem", height:"3rem",marginRight:"1.5rem"}} />
         </Hidden>
-        <Hidden mdUp>WittyAnt</Hidden>
+        <Hidden mdUp><div >
+      <Typography
+            noWrap
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: 'flex', md: 'flex' },
+              fontFamily: 'monospace',
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+              fontFamily:"Roboto Slab, Times New Roman, serif",fontWeight:800,minHeight: "20px"
+            }}
+          >
+            WittyAnt
+          </Typography></div></Hidden>
         <Hidden mdUp>
           <IconButton
             color="inherit"
