@@ -1,15 +1,9 @@
 import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
-// react component for creating beautiful carousel
 import Carousel from "react-slick";
-import makeStyles from '@mui/styles/makeStyles';
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-// @mui/icons-material
 import Share from "@mui/icons-material/Share";
 import ShoppingCart from "@mui/icons-material/ShoppingCart";
-// core components
 import Header from "/components/Header/Header.js";
 import Button from "/components/CustomButtons/Button.js";
 import GridContainer from "/components/Grid/GridContainer.js";
@@ -17,11 +11,11 @@ import GridItem from "/components/Grid/GridItem.js";
 import Card from "/components/Card/Card.js";
 import CardBody from "/components/Card/CardBody.js";
 import CustomInput from "/components/CustomInput/CustomInput.js";
-
+import { makeStyles } from '@mui/styles';
 import headersStyle from "/styles/jss/witty-ant/pages/sectionsSections/headersStyle.js";
 
 const useStyles = makeStyles(headersStyle);
-
+ 
 export default function SectionHeaders({ ...rest }) {
   const classes = useStyles();
   const settings = {
@@ -38,11 +32,14 @@ export default function SectionHeaders({ ...rest }) {
       <div className={classes.sectionBlank} id="blanksection" />
       {/* HEADER 1 START */}
       <div>
-        <div className={classes.pageHeader}
-          style={{ backgroundImage: "url('/img/bg111.jpg')" }}
-        >
-			
-          <div className={classes.container}>
+    
+      <div
+           style={{ backgroundImage: "url('img/aboutus.jpg')" ,
+          //  height: "50%",
+          // width: "100%",
+          // padding: "1.5rem",  
+          }} >
+         <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={12}>
                 <h1 className={classes.title}>WittyAnt</h1>
@@ -59,7 +56,7 @@ export default function SectionHeaders({ ...rest }) {
               </GridItem>
             </GridContainer>
             <GridContainer>
-              <GridItem xs={12} sm={12} md={12}>
+              <GridItem xs={12} sm={12} md={8}>
                 <h4 className={classes.title}>Our Mission</h4>
                 <ul>
                   <li><h4>
@@ -68,9 +65,8 @@ export default function SectionHeaders({ ...rest }) {
                 </ul>
                 <br />
               </GridItem>
-              </GridContainer>
-              <GridContainer>
-              <GridItem xs={12} sm={12} md={12}>
+              
+              <GridItem xs={12} sm={12} md={8}>
                 <h4 className={classes.title}>Vision</h4>
                 <ul>
                   <li><h4>
@@ -80,33 +76,29 @@ export default function SectionHeaders({ ...rest }) {
                 <br />
               </GridItem>
               
-
               <GridItem xs={12} sm={6} md={6}>
                 <h4 className={classes.title}>Values</h4>
                 <ul>
                   <li>
-                    <h4   >One - Ness</h4>
+                    <h4>One - Ness</h4>
                     <h4>Trust</h4>
                     <h4>Humour</h4>
                     <h4>Integrity</h4>
                     <h4>Thrive</h4>
                     <h4>Strive</h4>
                   </li>
-                </ul>
-				</GridItem>
+                
+				<br/>
 				
-            
-              
-              <GridItem xs={12} sm={12} md={12}>
-              <h4 className={classes.title}>Vision</h4>
-                <ul>
-                  <li><h4>
-                Are you prepared to embark on this thrilling adventure with us? Discover our website to gain deeper insights into our diverse range of products and services?. Feel free to contact our team to explore how we can contribute to the prosperity of your business.
-				</h4></li>
+                  <li>
+				  <h4 className={classes.title}>
+                Are you prepared to embark on this thrilling adventure with us? Discover our website to gain deeper insights into our diverse range of products and services?. Feel free to contact our team to explore how we can contribute to the prosperity of your business.</h4>
+				</li>
                 </ul>
+                
               </GridItem>
-			  </GridContainer>
-
+              
+              </GridContainer>
           </div>
         </div>
       </div>
