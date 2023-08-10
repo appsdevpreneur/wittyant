@@ -34,10 +34,9 @@ export default function SectionHeaders({ ...rest }) {
       <div>
     
       <div
-           style={{ backgroundImage: "url('img/aboutus.jpg')" ,
-          //  height: "50%",
-          // width: "100%",
-          // padding: "1.5rem",  
+           style={{ backgroundImage: "url('img/bbg4.jpg')" ,
+           width: "100%", /* Set the desired width */
+           height: "auto", /* Set the desired height */
           }} >
          <div className={classes.container}>
             <GridContainer>
