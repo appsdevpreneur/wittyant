@@ -170,8 +170,9 @@ export default function SectionContacts({ ...rest }) {
                 className={classes.infoArea}
                 title="Give us a ring"
                 description={
-                    <span ><Typography style={{color:"white",fontWeight:"700"}}>Vinod</Typography>
-                    <Typography style={{color:"white",fontWeight:"700"}}>+91 9545459320</Typography>
+                    <span >
+                      {/* <Typography style={{color:"white",fontWeight:"700"}}>Vinod</Typography> */}
+                    {/* <Typography style={{color:"white",fontWeight:"700"}}>+91 9545459320</Typography> */}
                     <Typography style={{color:"white",fontWeight:"700"}}>Mon - Fri, 8:00-22:00</Typography></span>
                 }
                 icon={Phone}
