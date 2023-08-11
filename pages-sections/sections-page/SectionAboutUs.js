@@ -1,16 +1,6 @@
 import React from "react";
-import Carousel from "react-slick";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import Share from "@mui/icons-material/Share";
-import ShoppingCart from "@mui/icons-material/ShoppingCart";
-import Header from "/components/Header/Header.js";
-import Button from "/components/CustomButtons/Button.js";
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import Card from "/components/Card/Card.js";
-import CardBody from "/components/Card/CardBody.js";
-import CustomInput from "/components/CustomInput/CustomInput.js";
 import { makeStyles } from '@mui/styles';
 import headersStyle from "/styles/jss/witty-ant/pages/sectionsSections/headersStyle.js";
 

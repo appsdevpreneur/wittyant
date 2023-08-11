@@ -46,11 +46,11 @@ export default function SectionsPage() {
         parseInt(navigationItems[i].getAttribute("data-number"), 10) - 1;
       if (
         contentSections[i].offsetTop - window.innerHeight / 2 <
-          window.pageYOffset &&
+        window.pageYOffset &&
         contentSections[i].offsetTop +
-          contentSections[i].scrollHeight -
-          window.innerHeight / 2 >
-          window.pageYOffset
+        contentSections[i].scrollHeight -
+        window.innerHeight / 2 >
+        window.pageYOffset
       ) {
         navigationItems[activeSection].classList.add("is-selected");
       } else {
@@ -98,16 +98,16 @@ export default function SectionsPage() {
         <SectionServices id="services" />
         <SectionIndustries id="industries" />
         {/* <SectionTechnology id="technology" /> */}
-        <SectionProjects id="projects" />
+        {/* <SectionProjects id="projects" /> */}
         <SectionTeams id="teams" />
-        <SectionTestimonials id="testimonials" />
+        {/* <SectionTestimonials id="testimonials" /> */}
         <SectionOffices id="offices" />
         <SectionContacts id="contacts" />
         <SectionCareers id="careers" />
       </div>
       <nav id="cd-vertical-nav">
         <ul>
-        <li>
+          <li>
             <a
               href="#aboutus"
               data-number="1"
@@ -121,7 +121,8 @@ export default function SectionsPage() {
                 } else {
                   e.preventDefault();
                   smoothScroll("aboutus");
-                }}
+                }
+              }
               }
             >
               <span className="cd-dot" />
@@ -191,7 +192,7 @@ export default function SectionsPage() {
               <span className="cd-label">Technology</span>
             </a>
           </li> */}
-          <li>
+          {/* <li>
             <a
               href="#projects"
               data-number="4"
@@ -211,11 +212,11 @@ export default function SectionsPage() {
               <span className="cd-dot" />
               <span className="cd-label">Projects</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#teams"
-              data-number="5"
+              data-number="4"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -233,7 +234,7 @@ export default function SectionsPage() {
               <span className="cd-label">Teams</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#testimonials"
               data-number="6"
@@ -253,11 +254,11 @@ export default function SectionsPage() {
               <span className="cd-dot" />
               <span className="cd-label">Testimonials</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#offices"
-              data-number="7"
+              data-number="5"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -278,7 +279,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#contacts"
-              data-number="8"
+              data-number="6"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -299,7 +300,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#careers"
-              data-number="9"
+              data-number="7"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -320,47 +321,47 @@ export default function SectionsPage() {
         </ul>
       </nav>
       <Footer
-          className={classes.footer}
-          content={
-            <div>
-              <div className={classes.left}>
+        className={classes.footer}
+        content={
+          <div>
+            <div className={classes.left}>
               <Button
-                    href="https://twitter.com/wittyanthill"
-                    target="_blank"
-                    color="twitter"
-                    justIcon
-                    simple
-                  >
-                    <i className="fab fa-twitter" />
-                  </Button>
-                  <Button
-                    href="https://instagram.com/wittyanthill?igshid=MzNlNGNkZWQ4Mg=="
-                    target="_blank"
-                    color="instagram"
-                    justIcon
-                    simple
-                  >
-                    <i className="fab fa-instagram" />
-                  </Button>
-                  <Button   href="https://www.facebook.com/people/WittyAnt/100094870993690" 
-                  justIcon simple color="facebook">
-                      <i className="fab fa-facebook-square" />
-                    </Button>
-              </div>
-              <div className={classes.right}>
-                &copy; {1900 + new Date().getYear()} , made {" "}
-                by{" "}
-                <a
-                  href="  "
-                  target="_blank"
-                   style={{color: "gray"}}
-                >
-                  WittyAnt
-                </a>{" "}
-              </div>
+                href="https://twitter.com/wittyanthill"
+                target="_blank"
+                color="twitter"
+                justIcon
+                simple
+              >
+                <i className="fab fa-twitter" />
+              </Button>
+              <Button
+                href="https://instagram.com/wittyanthill?igshid=MzNlNGNkZWQ4Mg=="
+                target="_blank"
+                color="instagram"
+                justIcon
+                simple
+              >
+                <i className="fab fa-instagram" />
+              </Button>
+              <Button href="https://www.facebook.com/people/WittyAnt/100094870993690"
+                justIcon simple color="facebook">
+                <i className="fab fa-facebook-square" />
+              </Button>
             </div>
-          }
-        />
+            <div className={classes.right}>
+              &copy; {1900 + new Date().getYear()} , made {" "}
+              by{" "}
+              <a
+                href="  "
+                target="_blank"
+                style={{ color: "gray" }}
+              >
+                WittyAnt
+              </a>{" "}
+            </div>
+          </div>
+        }
+      />
     </div>
   );
 }

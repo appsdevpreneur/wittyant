@@ -1,26 +1,16 @@
 import React from "react";
 import makeStyles from '@mui/styles/makeStyles';
 // @mui/icons-material
-import Chat from "@mui/icons-material/Chat";
-import VerifiedUser from "@mui/icons-material/VerifiedUser";
-import Fingerprint from "@mui/icons-material/Fingerprint";
+
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
-import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
 import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
-import AddBusinessIcon from '@mui/icons-material/AddBusiness';
-import EngineeringIcon from '@mui/icons-material/Engineering';
 import CloudDoneIcon from '@mui/icons-material/CloudDone';
 import TerminalIcon from '@mui/icons-material/Terminal';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import SpeedIcon from '@mui/icons-material/Speed';
 import PsychologyIcon from '@mui/icons-material/Psychology';
-import Code from "@mui/icons-material/Code";
-import FormatPaint from "@mui/icons-material/FormatPaint";
-import Dashboard from "@mui/icons-material/Dashboard";
-import ViewCarousel from "@mui/icons-material/ViewCarousel";
-import AccessTime from "@mui/icons-material/AccessTime";
-import AttachMoney from "@mui/icons-material/AttachMoney";
+
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";

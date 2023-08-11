@@ -1,15 +1,6 @@
 import React from "react";
 import makeStyles from '@mui/styles/makeStyles';
 // @mui/icons-material
-import Chat from "@mui/icons-material/Chat";
-import VerifiedUser from "@mui/icons-material/VerifiedUser";
-import Fingerprint from "@mui/icons-material/Fingerprint";
-import Code from "@mui/icons-material/Code";
-import FormatPaint from "@mui/icons-material/FormatPaint";
-import Dashboard from "@mui/icons-material/Dashboard";
-import ViewCarousel from "@mui/icons-material/ViewCarousel";
-import AccessTime from "@mui/icons-material/AccessTime";
-import AttachMoney from "@mui/icons-material/AttachMoney";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";

@@ -135,22 +135,14 @@ export default function HeaderLinks(props) {
           Industries
         </a>
       </Link>
-      {/* <Link href="/sections#technology">
-        <a
-          className={classes.dropdownLink}
-          onClick={(e) => smoothScroll(e, "technology")}
-        >
-          Technology
-        </a>
-      </Link> */}
-      <Link href="/sections#projects">
+      {/* <Link href="/sections#projects">
         <a
           className={classes.dropdownLink}
           onClick={(e) => smoothScroll(e, "projects")}
         >
           Projects
         </a>
-      </Link>
+      </Link> */}
       <Link href="/sections#teams">
         <a
           className={classes.dropdownLink}
@@ -159,14 +151,14 @@ export default function HeaderLinks(props) {
           Team
         </a>
       </Link>
-      <Link href="/sections#testimonials">
+      {/* <Link href="/sections#testimonials">
         <a
           className={classes.dropdownLink}
           onClick={(e) => smoothScroll(e, "testimonials")}
         >
           Testimonials
         </a>
-      </Link>
+      </Link> */}
       <Link href="/sections#offices">
         <a
           className={classes.dropdownLink}
