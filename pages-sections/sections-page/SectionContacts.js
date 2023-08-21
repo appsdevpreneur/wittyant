@@ -186,7 +186,7 @@ export default function SectionContacts({ ...rest }) {
                   contact@wittyant.com <br/>hr@wittyant.com<br/>vinod@wittyant.coming
                   </Typography></span>
               }
-              icon={""}
+              icon={"email"}
               />
             </GridItem>
             <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
