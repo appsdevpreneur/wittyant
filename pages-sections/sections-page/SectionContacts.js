@@ -177,6 +177,17 @@ export default function SectionContacts({ ...rest }) {
                 }
                 icon={Phone}
               />
+
+              <InfoArea
+              className={classes.infoArea}
+              title="Bussines Email's"
+              description={
+                <span> <Typography style={{color:"blue",fontWeight:"500"}}>
+                  contact@wittyant.com <br/>hr@wittyant.com<br/>vinod@wittyant.coming
+                  </Typography></span>
+              }
+              icon={""}
+              />
             </GridItem>
             <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
               <Card className={classes.card1}>

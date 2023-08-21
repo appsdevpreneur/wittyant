@@ -49,7 +49,9 @@ export default function SectionOffices({ ...rest }) {
                   title="India"
                   description={
                     <p>
-                      Winny Ant, Pune, India
+                      WittyAnt Technologies Pvt Ltd<br/>
+                     World Trade Center<br/>
+  WTC Kharadi, Tower 5, World Trade Center , Kharadi, MIDC Knowledge Park, Pune, MH 411014
                     </p>
                   }
                   iconColor="info"
@@ -63,7 +65,7 @@ export default function SectionOffices({ ...rest }) {
                   title="USA"
                   description={
                     <p>
-                      Winny Ant, MI, USA
+                      WittyAnt Technologies Pvt Ltd, MI, USA
                     </p>
                   }
                   iconColor="info"
@@ -77,7 +79,7 @@ export default function SectionOffices({ ...rest }) {
                   title="Middle East"
                   description={
                     <p>
-                      Winny Ant, Dubai, UAE
+                      WittyAnt Technologies Pvt Ltd, Dubai, UAE
                     </p>
                   }
                   iconColor="info"

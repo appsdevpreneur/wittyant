@@ -63,7 +63,7 @@ She has clinical experience in Skin and Medicine areas for over last 23 years. S
                     <h6 className={classes.cardCategory}>CTO</h6>
                   </Muted>
                   <Muted>
-                    <h5 >Ankith is WittyAnt’s Tech Leader in areas of Artificial Intelligence, Data Science and IOT, He has experience in  AI Implementations in Nice Medical Applications, Industrial Automation . He is a  Master in Science – MS Computational Science and Engineering from the Technical University of Munich majoring in Machine learning , Deep learning ,Information retrieval and Scientific Computing.</h5>
+                    <h5 >Ankith is WittyAnt’s Tech Leader in areas of Artificial Intelligence, Data Science and IOT, He has experience in  AI Implementations in Niche Medical Applications, Industrial Automation . He is a  Master in Science – MS Computational Science and Engineering from the Technical University of Munich majoring in Machine learning , Deep learning ,Information retrieval and Scientific Computing.</h5>
                   </Muted>
                  
                 </CardBody>
