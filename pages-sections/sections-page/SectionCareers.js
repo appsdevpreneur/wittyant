@@ -194,6 +194,15 @@ export default function SectionCareers({ ...rest }) {
                         >
                           Dubai, UAE
                         </MenuItem>
+                        <MenuItem
+                          classes={{
+                            root: classes.selectMenuItem,
+                            selected: classes.selectMenuItemSelected
+                          }}
+                          value="4"
+                        >
+                          Remote
+                        </MenuItem>
                       </Select>
                     </FormControl>
                   </GridItem>

@@ -349,14 +349,14 @@ export default function SectionsPage() {
               </Button>
             </div>
             <div className={classes.right}>
-              &copy; {1900 + new Date().getYear()} , made {" "}
-              by{" "}
+              {/* &copy; {1900 + new Date().getYear()} , made {" "}
+              by{" "} */}
               <a
                 href="  "
                 target="_blank"
                 style={{ color: "gray" }}
               >
-                WittyAnt
+                All rights reserved by WittyAnt Copyright ©2023
               </a>{" "}
             </div>
           </div>

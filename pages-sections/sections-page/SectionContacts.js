@@ -180,10 +180,10 @@ export default function SectionContacts({ ...rest }) {
 
               <InfoArea
               className={classes.infoArea}
-              title="Bussines Email's"
+              title="Business Email's"
               description={
                 <span> <Typography style={{color:"blue",fontWeight:"500"}}>
-                  contact@wittyant.com <br/>hr@wittyant.com<br/>vinod@wittyant.coming
+                  vinod@wittyant.com
                   </Typography></span>
               }
               icon={"email"}
