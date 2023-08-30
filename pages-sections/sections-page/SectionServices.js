@@ -51,7 +51,7 @@ export default function SectionServices({ ...rest }) {
                   <li><h5>We provide  ERP –SAP/ Oracle Apps/ Open Source ERP consulting, implementation, and maintenance services leveraging our 100+ ERP experts. We bring deep business understanding to enable the transformation, keeping the business user at the centre.</h5></li>
                   <li><h5>In light of Oracle and SAP's recent announcements about phasing out standard support for older versions of their enterprise resource planning (ERP) suites in the coming years, executives whose businesses rely on these systems are seizing the opportunity to reassess their ERP programs</h5></li>
                   <li><h5>Leverage Our  Skills on S4 HANA for general industries and expertise in areas of SAP S/4 for Fashion and Retail to get you the unfair advantage.</h5></li>
-                  <li ><h5>Application  Development</h5></li>
+                  {/* <li ><h5>Application  Development</h5></li> */}
                   {/* <li><h5>Application  Support , Maintenance</h5></li> */}
                   <li><h5>We provide SAP consulting, implementation, and maintenance services leveraging our 100+ SAP experts. We bring deep business understanding across SAP modules to enable the transformation, keeping the business user at the centre.</h5></li>
                 </ul>

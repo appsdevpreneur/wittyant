@@ -183,7 +183,7 @@ export default function SectionContacts({ ...rest }) {
               title="Business Email's"
               description={
                 <span> <Typography style={{color:"blue",fontWeight:"500"}}>
-                  vinod@wittyant.com
+                 <h3>contact@wittyant.com<br/>hr@wittyant.com</h3> 
                   </Typography></span>
               }
               icon={"email"}

@@ -50,7 +50,7 @@ export default function SectionOffices({ ...rest }) {
                   description={
                     <p>
                       WittyAnt Technologies Pvt Ltd<br/>
-                     World Trade Center<br/>
+                    
   WTC Kharadi, Tower 5, World Trade Center , Kharadi, MIDC Knowledge Park, Pune, MH 411014
                     </p>
                   }
