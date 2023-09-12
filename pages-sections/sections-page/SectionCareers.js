@@ -24,6 +24,7 @@ export default function SectionCareers({ ...rest }) {
       <div className={classes.career}>
         <div className={classes.container}>
           <GridContainer>
+
             <GridItem
               xs={12}
               sm={8}
@@ -32,6 +33,7 @@ export default function SectionCareers({ ...rest }) {
                 classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
               }
             >
+              
               <h2 className={classes.title} style={{color:"black"}}>Careers</h2>
               <Muted>
                 <h4 className={classes.cardTitle}>
@@ -40,21 +42,21 @@ export default function SectionCareers({ ...rest }) {
                 <h4 className={classes.cardTitle}>We intend to build a workforce that is diverse irrespective of gender, religion, age, country of origin and what have you.
                 </h4>
               </Muted>
-              {/* <div className={classes.container} style={{ color: "gray" }}>
+               <div className={classes.container} style={{ color: "gray" }}>
                 <GridContainer
                   className={classes.gridContainer}
                   style={{ margin: "0!important", color: "gray" }}
-                > */}
-                  {/* <GridItem xs={12} sm={6} md={4} lg={3} style={{ margin: "1rem", padding: "1rem" }}> */}
-                    {/* <FormControl
+                > 
+                  <GridItem xs={12} sm={6} md={4} lg={3} style={{ margin: "1rem", padding: "1rem" }}> 
+                     {/* <FormControl
                   fullWidth
                   className={
                     classes.selectFormControl +
                     " " +
                     classes.selectUnderlineRoot
                   }
-                > */}
-                    {/* <InputLabel id="demo-simple-select-label">Specializations</InputLabel >
+                > 
+                     <InputLabel id="demo-simple-select-label">Specializations</InputLabel > */}
                     <Select
                       MenuProps={{
                         className: classes.selectMenu
@@ -135,7 +137,7 @@ export default function SectionCareers({ ...rest }) {
                       </MenuItem>
                     </Select>
                     {/* </FormControl> */}
-                  {/* </GridItem>
+                  </GridItem>
                   <GridItem xs={12} sm={6} md={4} lg={3} style={{ margin: "1rem", padding: "1rem" }}>
                     <FormControl
                       fullWidth
@@ -268,7 +270,8 @@ export default function SectionCareers({ ...rest }) {
                         " " +
                         classes.selectUnderlineRoot
                       }
-                    ><InputLabel id="demo-simple-select-label">Seniority</InputLabel >
+                    >
+                      <InputLabel id="demo-simple-select-label">Seniority</InputLabel >
                       <Select
                         MenuProps={{
                           className: classes.selectMenu
@@ -331,8 +334,8 @@ export default function SectionCareers({ ...rest }) {
                     </FormControl>
                   </GridItem>
                 </GridContainer>
-              </div> */}
-<div >
+              </div> 
+{/* <div >
   <Card ><h3 className={classes.cardTitle} style={{ color: "black" }}> Position's </h3> </Card>
 <Card>
 
@@ -527,7 +530,7 @@ Beyond project-related responsibilities, your level of seniority will determine 
   <Card>
     <h4 className={classes.cardTitle} style={{ color: "black" }}>" If you are ready to contribute your expertise to our team and play a pivotal role in shaping the future of our automation efforts, we invite you to join us. This is a remarkable opportunity to be part of our growth journey while making a substantial impact in the world of Automation Engineering. "</h4>
   </Card>
-</div>
+</div> */}
 
 
             </GridItem>
