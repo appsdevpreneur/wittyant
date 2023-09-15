@@ -57,7 +57,8 @@ export default function SectionOffices({ ...rest }) {
                   iconColor="info"
                 />
               </GridItem>
-              <GridItem xs={12} sm={4} className={classes.gridItem}>
+              </GridContainer>
+              {/* <GridItem xs={12} sm={4} className={classes.gridItem}>
                 <InfoArea
                   vertical
                   className={classes.infoArea5}
@@ -85,7 +86,7 @@ export default function SectionOffices({ ...rest }) {
                   iconColor="info"
                 />
               </GridItem>
-            </GridContainer>
+            </GridContainer> */}
             {/* <GridContainer
               className={classes.gridContainer}
               style={{ margin: "0!important" }}

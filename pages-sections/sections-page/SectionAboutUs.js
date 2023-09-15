@@ -70,13 +70,13 @@ export default function SectionHeaders({ ...rest }) {
                 <h4 className={classes.title}>Values</h4>
                 <ul>
                   <li>
-                    <h4> &#x1F3C6; One - Ness</h4>
-                    <h4>&#128175; Trust</h4>
-                    <h4>&#128540; Humour</h4>
-                    <h4>&#127757; Integrity</h4>
-                    <h4>&#127993; Thrive</h4>
-                    <h4>&#x23F3; Strive</h4>
-                  </li>
+                    <h4> One - Ness</h4></li>
+                    <li><h4> Trust</h4></li> 
+                    <li><h4> Humour</h4></li>
+                    <li><h4> Integrity</h4></li>
+                    <li><h4> Thrive</h4></li> 
+                    <li><h4> Strive</h4></li>
+                  
                 
 				<br/>
 				

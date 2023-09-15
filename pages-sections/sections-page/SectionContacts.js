@@ -183,8 +183,8 @@ export default function SectionContacts({ ...rest }) {
               className={classes.infoArea}
               title="Business Email's"
               description={
-                <span> <Typography style={{color:"blue",fontWeight:"500"}}>
-                 <h3>contact@wittyant.com<br/>hr@wittyant.com</h3> 
+                <span> <Typography style={{color:"white",fontWeight:"700",fontSize:"500"}}>
+                 contact@wittyant.com<br/>hr@wittyant.com
                   </Typography></span>
               }
               icon={"email"}
